@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-class ShareData {
+class ShareData01 {
     private static int flag = 1;
     //锁
     private Lock lock = new ReentrantLock();
@@ -13,7 +13,25 @@ class ShareData {
     private Condition c2 = lock.newCondition();
     private Condition c3 = lock.newCondition();
 
+    public void print(int bool) throws InterruptedException {
+        lock.lock();
+        //判断
+        while (flag != bool) {
+            if(bool==2||bool==3){
+                c1.await();
+            }else if(bool==1||bool==3){
 
+            }
+
+        }
+        //干活
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(Thread.currentThread().getName() + "/" + i);
+        }
+        //通知
+        flag = 2;
+        c2.signal();
+    }
     public void print5() throws InterruptedException {
         lock.lock();
         //判断
@@ -67,7 +85,7 @@ class ShareData {
  * 3.使用while进行判断，解决虚假唤醒的bug
  * 4.修改标志位
  */
-public class ThreeInformation {
+public class ThreeInformation01 {
     public static void main(String[] args) {
         ShareData shareData = new ShareData();
 
