@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="233180ae-65bc-4acb-8cd2-79c02dd7da47" name="Default Changelist" comment="12.16&#10;17:55">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/day03_printThree/CallableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/day03_printThree/CyclicBarrierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/day03_printThree/SemaphoreDemo.java" afterDir="false" />
+    <list default="true" id="233180ae-65bc-4acb-8cd2-79c02dd7da47" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/salepicket/com/atguigu/day03_printThree/MyCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/salepicket/com/atguigu/day03_printThree/MyCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/salepicket/com/atguigu/day03_printThree/ReadWriteLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/salepicket/com/atguigu/day03_printThree/ReadWriteLockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/salepicket/com/atguigu/day03_printThree/ThreeInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/salepicket/com/atguigu/day03_printThree/ThreeInformation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/day03_printThree/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/day03_printThree/ReadWriteLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/day03_printThree/ThreeInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/day03_printThree/ThreeInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/day03_printThree/numberDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/day03_printThree/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/day03_printThree/CallableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/day03_printThree/CallableDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,32 +39,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/CountDownLatchDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-87">
+            <state relative-caret-position="135">
               <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/SemaphoreDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="21">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/CallableDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-351">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -80,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/CyclicBarrierDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="702">
               <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -137,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/com/atguigu/day03_printThree/numberDown.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/day03_printThree/CyclicBarrierDemo.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/day03_printThree/CountDownLatchDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/day03_printThree/SemaphoreDemo.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/day03_printThree/CallableDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/day03_printThree/SemaphoreDemo.java" />
       </list>
     </option>
   </component>
@@ -199,6 +185,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="atguigu" type="462c0819:PsiDirectoryNode" />
               <item name="day03_printThree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salepicket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salepicket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="day03_printThree" type="462c0819:PsiDirectoryNode" />
+              <item name="ReadWriteLockDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -344,7 +338,7 @@
       <workItem from="1576283508860" duration="11204000" />
       <workItem from="1576332645137" duration="2948000" />
       <workItem from="1576381505718" duration="17812000" />
-      <workItem from="1576456209824" duration="20188000" />
+      <workItem from="1576456209824" duration="20549000" />
     </task>
     <task id="LOCAL-00002" summary="12.16&#10;17:55">
       <created>1576490166182</created>
@@ -353,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576490166182</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="12.16&#10;19.31">
+      <created>1576495935351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576495935351</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68097000" />
+    <option name="totallyTimeSpent" value="68458000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -445,7 +446,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12.16&#10;17:55" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.16&#10;17:55" />
+    <MESSAGE value="12.16&#10;19.31" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.16&#10;19.31" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -635,9 +637,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/CallableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/CyclicBarrierDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="702">
           <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -645,30 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/SemaphoreDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/CallableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="21">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
