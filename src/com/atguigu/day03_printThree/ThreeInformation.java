@@ -63,6 +63,8 @@ class ShareData {
  * 精准通知
  * 1.在高内聚低耦合的条件下，线程操作资源类
  * 2.判断/干活/通知
+ * 3.使用while进行判断，解决虚假唤醒的bug
+ * 4.修改标志位
  */
 public class ThreeInformation {
     public static void main(String[] args) {
