@@ -10,30 +10,40 @@ class Cake_up01{
     private Lock lock=new ReentrantLock();
     private Condition condition=lock.newCondition();
 
-    public synchronized void add() throws InterruptedException {
-        //判断
-        while(cake!=0){
-            //this.wait();
-            condition.await();
+    public void add() throws InterruptedException {
+        lock.lock();
+        try {
+            //判断
+            while(cake!=0){
+                //this.wait();
+                condition.await();
+            }
+            //操作
+            ++cake;
+            System.out.println(Thread.currentThread().getName()+":"+cake);
+            //通知
+            //notifyAll();
+            condition.signalAll();
+        } finally {
+            lock.unlock();
         }
-        //操作
-        ++cake;
-        System.out.println(Thread.currentThread().getName()+":"+cake);
-        //通知
-        //notifyAll();
-        condition.signalAll();
     }
     
 
     public synchronized void div() throws InterruptedException {
-        while (cake==0){
-            //this.wait();
-            condition.await();
+        lock.lock();
+        try {
+            while (cake==0){
+                //this.wait();
+                condition.await();
+            }
+            --cake;
+            System.out.println(Thread.currentThread().getName()+":"+cake);
+            //notifyAll();
+            condition.signalAll();
+        } finally {
+            lock.unlock();
         }
-        --cake;
-        System.out.println(Thread.currentThread().getName()+":"+cake);
-        //notifyAll();
-        condition.signalAll();
     }
 }
 
