@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="233180ae-65bc-4acb-8cd2-79c02dd7da47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/day04_threadPool/SaleTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/day03_printThree/BlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/day03_printThree/BlockingQueueDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,11 +60,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/BlockingQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="39">
+              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
                 <element signature="e#236#237#0" expanded="true" />
               </folding>
             </state>
@@ -72,10 +71,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/day04_threadPool/SaleTicket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/ThreeInformation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="94" lean-forward="true" selection-end-line="147" />
+            <state relative-caret-position="378">
+              <caret line="101" column="36" lean-forward="true" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,6 +138,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -163,6 +179,8 @@
         <option value="$PROJECT_DIR$/src/com/atguigu/day03_printThree/ThreeInformation.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/day03_printThree/ThreeInformation01.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/day03_printThree/BlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/day04_threadPool/ThreadPoolSaleTicket.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/day04_threadPool/SaleTicket.java" />
       </list>
     </option>
   </component>
@@ -220,6 +238,21 @@
             </path>
             <path>
               <item name="salepicket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salepicket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_threadPool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salepicket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salepicket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_threadPool" type="462c0819:PsiDirectoryNode" />
+              <item name="SaleTicket.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="salepicket" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -235,7 +268,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/atguigu/day03_printThree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/atguigu/day04_threadPool" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.selected.package.jscs" value="" />
@@ -250,6 +283,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAproject\salepicket\src\com\atguigu\day04_threadPool" />
       <recent name="E:\IDEAproject\salepicket\src\com\atguigu\day03_printThree" />
       <recent name="E:\IDEAproject\salepicket\src\day02_lam" />
       <recent name="E:\IDEAproject\salepicket\src" />
@@ -267,20 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreeInformation01">
-    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.day03_printThree.CallableDemo" />
-      <module name="salepicket" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.day03_printThree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SaleTicket">
     <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.day03_printThree.ReadWriteLockDemo" />
       <module name="salepicket" />
@@ -300,6 +321,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atguigu.day03_printThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.day04_threadPool.SaleTicket" />
+      <module name="salepicket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.day04_threadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,18 +369,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ReadWriteLockDemo" />
-      <item itemvalue="Application.CallableDemo" />
       <item itemvalue="Application.ReadWriteLockDemo01" />
       <item itemvalue="Application.ThreeInformation01" />
       <item itemvalue="Application.ThreeInformation" />
+      <item itemvalue="Application.SaleTicket" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SaleTicket" />
         <item itemvalue="Application.ThreeInformation01" />
         <item itemvalue="Application.ThreeInformation" />
         <item itemvalue="Application.ReadWriteLockDemo01" />
         <item itemvalue="Application.ReadWriteLockDemo" />
-        <item itemvalue="Application.CallableDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +401,7 @@
       <workItem from="1576332645137" duration="2948000" />
       <workItem from="1576381505718" duration="17812000" />
       <workItem from="1576456209824" duration="32361000" />
-      <workItem from="1576542539733" duration="2464000" />
+      <workItem from="1576542539733" duration="4757000" />
     </task>
     <task id="LOCAL-00002" summary="12.16&#10;17:55">
       <created>1576490166182</created>
@@ -404,11 +438,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576543759485</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="12.17-10：43">
+      <created>1576548252369</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576548252369</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82734000" />
+    <option name="totallyTimeSpent" value="85027000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -429,10 +470,10 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49878934" visible="true" weight="0.23373677" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49878934" visible="true" weight="0.23373677" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998326" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.3557047" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.3557047" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39865997" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,7 +541,8 @@
     <MESSAGE value="12.16-19.35" />
     <MESSAGE value="12.16-20:45" />
     <MESSAGE value="12.17-08:48" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.17-08:48" />
+    <MESSAGE value="12.17-10：43" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.17-10：43" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -854,18 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/BlockingQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/ReadWriteLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -905,8 +935,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/ThreeInformation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="94" lean-forward="true" selection-end-line="147" />
+        <state relative-caret-position="378">
+          <caret line="101" column="36" lean-forward="true" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/BlockingQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day04_threadPool/SaleTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
