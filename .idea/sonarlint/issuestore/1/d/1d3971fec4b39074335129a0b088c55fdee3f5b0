@@ -1,0 +1,15 @@
+
++
+java:S1700"Rename field "ticket"(≥äá™
+N	java:S106"9Replace this use of System.out or System.err by a logger.(≤”„¶
+^
+java:S2276
+"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(Ä≠Ì‹¸ˇˇˇˇ
+>
+java:S1604,"(Make this anonymous inner class a lambda(…„√Æ
+>
+java:S1604#"(Make this anonymous inner class a lambda(…„√Æ
+>
+java:S1604"(Make this anonymous inner class a lambda(…„√Æ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(‰†πÄ

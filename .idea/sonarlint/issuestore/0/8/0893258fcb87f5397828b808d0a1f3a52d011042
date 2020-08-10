@@ -1,0 +1,17 @@
+
+F
+java:S1128"+Remove this unused import 'org.junit.Test'.(ùøèøÿÿÿÿ
+a
+java:S2142/"FEither re-interrupt this method or rethrow the "InterruptedException".(½áŞÿÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(Œ·ì¼ûÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(Ì¤ìÌşÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(ÓĞ—º
+E
+java:S3740"/Provide the parametrized type for this generic.(»°şÑ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(Ù­‹ø
+\
+java:S2142!"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+M	java:S106A"9Replace this use of System.out or System.err by a logger.(­óî[
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(Ì¤ìÌşÿÿÿÿ
+\
+java:S2142="FEither re-interrupt this method or rethrow the "InterruptedException".(šì¸û
