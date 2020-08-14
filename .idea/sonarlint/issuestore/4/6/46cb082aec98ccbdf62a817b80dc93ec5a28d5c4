@@ -1,0 +1,23 @@
+
+c
+java:S21423"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¯ÉşÃ½.
+W
+java:S11410"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¯ÉşÃ½.
+c
+java:S2142!"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ë¾ëÃ½.
+c
+java:S2142,"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¡ÃùÃ½.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¥¨ğĞ8ë¾ëÃ½.
+c
+java:S2142>"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ù¹üÃ½.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ˆÏ°…8ë¾ëÃ½.
+c
+java:S2142:"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¯ÉşÃ½.
+U	java:S106="9Replace this use of System.out or System.err by a logger.(‡¿¿8¯ÉşÃ½.
+W
+java:S1141)"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ø¡ıÃ½.
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(‡¿¿8¯ÉşÃ½.
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(‡¿¿8ù¹üÃ½.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(°Ü©¤øÿÿÿÿ8ë¾ëÃ½.
+W
+java:S11417"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¯ÉşÃ½.

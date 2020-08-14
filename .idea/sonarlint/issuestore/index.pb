@@ -21,3 +21,15 @@ c
 3src/com/atguigu/day02_lam/ThreadWaitNotifyDemo.java,1\8\18da3059281308af0e46c2acd05f2714ebc3b021
 d
 4src/com/atguigu/day02_lam/ThreadAWaitSignalDemo.java,e\e\ee015f6807a3036a3747205dff75a8d8c340a236
+l
+<src/com/atguigu/test_blockingqueue/SynchronousQueueDemo.java,4\6\46cb082aec98ccbdf62a817b80dc93ec5a28d5c4
+a
+1src/com/atguigu/day01_saletickets/SalePicket.java,3\9\393e6c4970724c01e4eb783f1660d6c49f5d7606
+e
+5src/com/atguigu/day01_saletickets/SaleTicket_up1.java,b\5\b5d79e35fb48a32743a167b984017cda70733fca
+r
+Bsrc/com/atguigu/test_blockingqueue/ProdConsumer_TraditionDemo.java,7\5\75b5ebbbcd7b997ffc2c1dcd1b02ece0ad2a3d07
+o
+?src/com/atguigu/test_blockingqueue/SyncAndReetrantLockDemo.java,0\4\04714ffaa52d4e805fecef3ba725d692ceb27287
+s
+Csrc/com/atguigu/test_blockingqueue/ProdConsumer_BlockQueueDemo.java,5\9\5985f337bf7f84fcb546f60a2b3236e60c3ec7f5

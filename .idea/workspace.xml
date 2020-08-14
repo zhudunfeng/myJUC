@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="233180ae-65bc-4acb-8cd2-79c02dd7da47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SynchronousQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/ProdConsumer_BlockQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/ProdConsumer_TraditionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SyncAndReetrantLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/0893258fcb87f5397828b808d0a1f3a52d011042" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/0893258fcb87f5397828b808d0a1f3a52d011042" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e01ef0a920d632cfa06f86554a41251660cd313" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e01ef0a920d632cfa06f86554a41251660cd313" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/179d1772575eaea29320dbb60096388316e702fc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/179d1772575eaea29320dbb60096388316e702fc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18da3059281308af0e46c2acd05f2714ebc3b021" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18da3059281308af0e46c2acd05f2714ebc3b021" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d3971fec4b39074335129a0b088c55fdee3f5b0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d3971fec4b39074335129a0b088c55fdee3f5b0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3647a78c5bc6085db2aac0923ac85e7271a83802" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3647a78c5bc6085db2aac0923ac85e7271a83802" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/799e53fc0d6507672dfea326e794a94b19cd18f8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/799e53fc0d6507672dfea326e794a94b19cd18f8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8bfb2fc18e827f2ccc428755f2c37858860779ff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8bfb2fc18e827f2ccc428755f2c37858860779ff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aedf78cf77b4de34615d410b3c1e04cbb28002d6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aedf78cf77b4de34615d410b3c1e04cbb28002d6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee015f6807a3036a3747205dff75a8d8c340a236" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee015f6807a3036a3747205dff75a8d8c340a236" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/atguigu/volatiletest/VolatileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myJUC/com/atguigu/volatiletest/VolatileDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/atguigu/day01_saletickets/SaleTicket_up1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myJUC/com/atguigu/day01_saletickets/SaleTicket_up1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/atguigu/test_blockingqueue/SynchronousQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myJUC/com/atguigu/test_blockingqueue/SynchronousQueueDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SaleTicket_up1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SaleTicket_up1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SynchronousQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SynchronousQueueDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,10 +55,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/day02_lam/ThreadAWaitSignalDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SyncAndReetrantLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="43" selection-end-column="19" />
+            <state relative-caret-position="1386">
+              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,28 +67,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/ProdConsumer_BlockQueueDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SynchronousQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#950#1034#0" />
-                <element signature="e#1066#1118#0" />
-                <element signature="e#1273#1340#0" />
-                <element signature="e#1372#1432#0" />
-                <element signature="e#1549#1616#0" />
-                <element signature="e#1648#1708#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/aba/ABATest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+            <state relative-caret-position="220">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,23 +91,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/volatiletest/VolatileTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SalePicket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/volatiletest/VolatileDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="38" selection-end-column="27" />
-              <folding>
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="110">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -107,6 +104,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
               <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SaleTicket_up1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,18 +134,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
               <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/ThreeInformation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2178">
-              <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -190,7 +187,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c79cda01-f814-4882-9dd2-cee9291edc51/console.sql" />
         <option value="$PROJECT_DIR$/src/SaleTicket.java" />
         <option value="$PROJECT_DIR$/src/SaleTicket_up1.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SaleTicket_up1.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/day01_saletickets/Thread.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SaleTicket.java" />
         <option value="$PROJECT_DIR$/src/day02_lam/Cake01.java" />
@@ -231,6 +227,10 @@
         <option value="$PROJECT_DIR$/src/com/atguigu/volatiletest/VolatileDemo.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SynchronousQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SaleTicket_up1.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/ProdConsumer_TraditionDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SyncAndReetrantLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/ProdConsumer_BlockQueueDemo.java" />
       </list>
     </option>
   </component>
@@ -260,9 +260,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="825" />
-    <option name="y" value="200" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-15" />
     <option name="width" value="1920" />
     <option name="height" value="1040" />
   </component>
@@ -276,6 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -302,11 +302,67 @@
               <item name="atguigu" type="462c0819:PsiDirectoryNode" />
               <item name="test_blockingqueue" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="test_blockingqueue" type="462c0819:PsiDirectoryNode" />
+              <item name="ProdConsumer_BlockQueueDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,7 +408,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynchronousQueueDemo">
+  <component name="RunManager" selected="Application.ProdConsumer_BlockQueueDemo">
+    <configuration name="ProdConsumer_BlockQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_blockingqueue.ProdConsumer_BlockQueueDemo" />
+      <module name="myJUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test_blockingqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdConsumer_TraditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_blockingqueue.ProdConsumer_TraditionDemo" />
+      <module name="myJUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test_blockingqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncAndReetrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_blockingqueue.SyncAndReetrantLockDemo" />
+      <module name="myJUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test_blockingqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SynchronousQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test_blockingqueue.SynchronousQueueDemo" />
       <module name="myJUC" />
@@ -379,62 +474,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.volatiletest.VolatileDemo" />
-      <module name="myJUC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.volatiletest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.volatiletest.VolatileTest" />
-      <module name="myJUC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.volatiletest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VolatileTest.sortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myJUC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.volatiletest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.volatiletest" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.volatiletest.VolatileTest" />
-      <option name="METHOD_NAME" value="sortTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.VolatileTest" />
-      <item itemvalue="Application.VolatileDemo" />
       <item itemvalue="Application.ThreadWaitNotifyDemo" />
-      <item itemvalue="JUnit.VolatileTest.sortTest" />
       <item itemvalue="Application.SynchronousQueueDemo" />
+      <item itemvalue="Application.ProdConsumer_TraditionDemo" />
+      <item itemvalue="Application.SyncAndReetrantLockDemo" />
+      <item itemvalue="Application.ProdConsumer_BlockQueueDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProdConsumer_BlockQueueDemo" />
+        <item itemvalue="Application.SyncAndReetrantLockDemo" />
+        <item itemvalue="Application.ProdConsumer_TraditionDemo" />
         <item itemvalue="Application.SynchronousQueueDemo" />
         <item itemvalue="Application.ThreadWaitNotifyDemo" />
-        <item itemvalue="Application.VolatileDemo" />
-        <item itemvalue="Application.VolatileTest" />
-        <item itemvalue="JUnit.VolatileTest.sortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +526,12 @@
       <workItem from="1595142543003" duration="1951000" />
       <workItem from="1596379812574" duration="736000" />
       <workItem from="1596415241292" duration="12000" />
-      <workItem from="1597064534104" duration="654000" />
+      <workItem from="1597064534104" duration="4087000" />
+      <workItem from="1597106339614" duration="20000" />
+      <workItem from="1597148704488" duration="1552000" />
+      <workItem from="1597192654061" duration="119000" />
+      <workItem from="1597332159093" duration="2417000" />
+      <workItem from="1597414956389" duration="3391000" />
     </task>
     <task id="LOCAL-00002" summary="12.16&#10;17:55">
       <created>1576490166182</created>
@@ -567,7 +625,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117431000" />
+    <option name="totallyTimeSpent" value="128363000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -579,7 +637,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <frame x="-12" y="0" width="1536" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
       <window_info id="Image Layers" order="1" />
@@ -587,18 +646,18 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49878934" visible="true" weight="0.2922252" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49878934" visible="true" weight="0.31529093" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998326" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.27745664" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.2766272" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739883" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.3238255" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32885906" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4977307" weight="0.32803467" />
-      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32885906" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" weight="0.32323232" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4977307" weight="0.32658958" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32803467" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" weight="0.32225433" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.3557047" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.3238255" />
       <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32998326" />
@@ -672,9 +731,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://c79cda01-f814-4882-9dd2-cee9291edc51/schema/0805/table/account" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c79cda01-f814-4882-9dd2-cee9291edc51/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c79cda01-f814-4882-9dd2-cee9291edc51/console_1.sql" />
     <entry file="jar://D:/develop/Java/jdk1.8.0_141/src.zip!/java/util/Iterator.java" />
     <entry file="jar://D:/develop/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java" />
     <entry file="uml://JAVA/com.atguigu.day03_printThree.ShareData">
@@ -969,40 +1025,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SalePicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SaleTicket_up1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/day02_lam/NoSateListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="22" column="3" selection-start-line="21" selection-start-column="25" selection-end-line="22" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="156" column="21" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
-          <folding>
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4085#4086#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1037,23 +1065,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day02_lam/ThreadAWaitSignalDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="43" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day02_lam/ThreadWaitNotifyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/aba/ABATest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1232">
@@ -1082,10 +1093,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/ThreeInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day02_lam/ThreadAWaitSignalDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="43" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day02_lam/ThreadWaitNotifyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/ProdConsumer_TraditionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SyncAndReetrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SynchronousQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SalePicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SaleTicket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SaleTicket_up1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,16 +1188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/ThreeInformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2178">
-          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/ThreeInformation01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1694">
@@ -1123,18 +1198,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SynchronousQueueDemo.java">
+    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="230">
+          <caret line="79" column="54" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="54" />
+          <folding>
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4085#4086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/ProdConsumer_BlockQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#950#1034#0" />
-            <element signature="e#1066#1118#0" />
-            <element signature="e#1273#1340#0" />
-            <element signature="e#1372#1432#0" />
-            <element signature="e#1549#1616#0" />
-            <element signature="e#1648#1708#0" />
           </folding>
         </state>
       </provider>

@@ -29,13 +29,19 @@ public class SaleTicket_up1 {
         Ticket_up1 ticket = new Ticket_up1();
 
         new Thread(() -> {
-            for (int i = 1; i <= 120; i++) ticket.sale();
+            for (int i = 1; i <= 120; i++) {
+                ticket.sale();
+            }
         }, "A").start();
         new Thread(() -> {
-            for (int i = 1; i <= 120; i++) ticket.sale();
+            for (int i = 1; i <= 120; i++) {
+                ticket.sale();
+            }
         }, "B").start();
         new Thread(() -> {
-            for (int i = 1; i <= 120; i++) ticket.sale();
+            for (int i = 1; i <= 120; i++) {
+                ticket.sale();
+            }
         }, "C").start();
     }
 
