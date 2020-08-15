@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 class MyResource{
     private volatile boolean FLAG=true;//默认开启，进行生产+消费
-    private AtomicInteger atomicInteger=new AtomicInteger();
+    private AtomicInteger atomicInteger=new AtomicInteger();//初始值为零
 
     BlockingQueue<String> blockingQueue=null;
     public MyResource(BlockingQueue<String> blockingQueue) {

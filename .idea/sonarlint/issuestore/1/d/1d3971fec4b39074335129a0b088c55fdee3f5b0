@@ -1,15 +1,15 @@
 
+N	java:S106"9Replace this use of System.out or System.err by a logger.(²Óã¦
 >
 java:S1604"(Make this anonymous inner class a lambda(ÉãÃ®
->
-java:S1604,"(Make this anonymous inner class a lambda(ÉãÃ®
-+
-java:S1700"Rename field "ticket"(³Š‡ª
-N	java:S106"9Replace this use of System.out or System.err by a logger.(²Óã¦
 >
 java:S1604#"(Make this anonymous inner class a lambda(ÉãÃ®
 \
 java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
++
+java:S1700"Rename field "ticket"(³Š‡ª
 ^
 java:S2276
 "CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(€­íÜüÿÿÿÿ
+>
+java:S1604,"(Make this anonymous inner class a lambda(ÉãÃ®

@@ -1,10 +1,10 @@
 
 c
-java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8û‘ˆÇ½.
-c
 java:S2142."FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¼²–Ç½.
-a	java:S101C"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(âíÜ
-b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ì¾ýÑ8ÝÇ›Ç½.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Ú™Ø¹8ü€©Ç½.
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8û‘ˆÇ½.
 g	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(Ì‚ê ùÿÿÿÿ8çó›Ç½.
 U	java:S106+"9Replace this use of System.out or System.err by a logger.(Ú™Ø¹8§™¨Ç½.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ú™Ø¹8ü€©Ç½.
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ì¾ýÑ8ÝÇ›Ç½.
+a	java:S101C"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(âíÜ
