@@ -1,0 +1,18 @@
+
+P	java:S125"<This block of commented-out lines of code should be removed.(ó®¢b
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(ÿ‹éï
+V	java:S1252"<This block of commented-out lines of code should be removed.(ëâäËÿÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+V	java:S1257"<This block of commented-out lines of code should be removed.(¨¸ Üúÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğôºµÿÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(Â˜úë
+V	java:S125""<This block of commented-out lines of code should be removed.(ÍŠÌŞøÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(´ÛÊ¾
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+E
+java:S3740"/Provide the parametrized type for this generic.(úØğÓ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(óÂİ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ş’¢
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(Ÿ®¬²ÿÿÿÿÿ
