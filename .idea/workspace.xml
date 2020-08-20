@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="233180ae-65bc-4acb-8cd2-79c02dd7da47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/testThreadPool/MyThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04714ffaa52d4e805fecef3ba725d692ceb27287" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04714ffaa52d4e805fecef3ba725d692ceb27287" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d3971fec4b39074335129a0b088c55fdee3f5b0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d3971fec4b39074335129a0b088c55fdee3f5b0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test_deadlock/DeadLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/016b78bdd75334c31c22c02544f3d8397c69580c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/016b78bdd75334c31c22c02544f3d8397c69580c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3647a78c5bc6085db2aac0923ac85e7271a83802" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3647a78c5bc6085db2aac0923ac85e7271a83802" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46cb082aec98ccbdf62a817b80dc93ec5a28d5c4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46cb082aec98ccbdf62a817b80dc93ec5a28d5c4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5985f337bf7f84fcb546f60a2b3236e60c3ec7f5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5985f337bf7f84fcb546f60a2b3236e60c3ec7f5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6339a323e684bc0028a26d668ffb44311d359a6d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6339a323e684bc0028a26d668ffb44311d359a6d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a6ee05ab3976a2a2e7c9415b4dbf710d9682692" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a6ee05ab3976a2a2e7c9415b4dbf710d9682692" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8bfb2fc18e827f2ccc428755f2c37858860779ff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8bfb2fc18e827f2ccc428755f2c37858860779ff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9dd1941c0d77b7ae10dc0cad51c62d23297b3f28" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9dd1941c0d77b7ae10dc0cad51c62d23297b3f28" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aedf78cf77b4de34615d410b3c1e04cbb28002d6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aedf78cf77b4de34615d410b3c1e04cbb28002d6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5d79e35fb48a32743a167b984017cda70733fca" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5d79e35fb48a32743a167b984017cda70733fca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f37b46ea184771692344b0ca611c005ca9908a2f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f37b46ea184771692344b0ca611c005ca9908a2f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -48,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_thread/CallableDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="1144">
               <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -57,13 +59,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/testThreadPool/MyThreadPoolDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_deadlock/DeadLockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+              <folding>
+                <element signature="e#460#518#0" />
+                <element signature="e#550#602#0" />
               </folding>
             </state>
           </provider>
@@ -72,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="42856">
               <caret line="2026" column="31" selection-start-line="2026" selection-start-column="15" selection-end-line="2026" selection-end-column="31" />
             </state>
           </provider>
@@ -150,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Thread.java" />
         <option value="$PROJECT_DIR$/src/TestThread.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c79cda01-f814-4882-9dd2-cee9291edc51/console.sql" />
         <option value="$PROJECT_DIR$/src/SaleTicket.java" />
@@ -201,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/ProdConsumer_BlockQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/test_thread/CallableDemo.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/testThreadPool/MyThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test_deadlock/DeadLockDemo.java" />
       </list>
     </option>
   </component>
@@ -230,10 +245,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-12" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="835" />
+    <option name="y" value="71" />
     <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -245,6 +261,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,7 +286,7 @@
               <item name="myJUC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="testThreadPool" type="462c0819:PsiDirectoryNode" />
+              <item name="test_deadlock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
@@ -391,8 +409,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,13 +454,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyThreadPoolDemo">
+  <component name="RunManager" selected="Application.DeadLockDemo">
     <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test_thread.CallableDemo" />
       <module name="myJUC" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atguigu.test_thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_deadlock.DeadLockDemo" />
+      <module name="myJUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test_deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -478,19 +507,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdConsumer_TraditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_blockingqueue.ProdConsumer_TraditionDemo" />
-      <module name="myJUC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.test_blockingqueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SyncAndReetrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test_blockingqueue.SyncAndReetrantLockDemo" />
       <module name="myJUC" />
@@ -505,19 +521,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ProdConsumer_TraditionDemo" />
       <item itemvalue="Application.SyncAndReetrantLockDemo" />
       <item itemvalue="Application.ProdConsumer_BlockQueueDemo" />
       <item itemvalue="Application.CallableDemo" />
       <item itemvalue="Application.MyThreadPoolDemo" />
+      <item itemvalue="Application.DeadLockDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.MyThreadPoolDemo" />
         <item itemvalue="Application.CallableDemo" />
         <item itemvalue="Application.ProdConsumer_BlockQueueDemo" />
         <item itemvalue="Application.SyncAndReetrantLockDemo" />
-        <item itemvalue="Application.ProdConsumer_TraditionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -566,7 +582,8 @@
       <workItem from="1597496243831" duration="9000" />
       <workItem from="1597496268815" duration="4938000" />
       <workItem from="1597624444309" duration="21000" />
-      <workItem from="1597846441647" duration="2791000" />
+      <workItem from="1597846441647" duration="2922000" />
+      <workItem from="1597935202784" duration="1036000" />
     </task>
     <task id="LOCAL-00002" summary="12.16&#10;17:55">
       <created>1576490166182</created>
@@ -660,7 +677,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137492000" />
+    <option name="totallyTimeSpent" value="138659000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -672,7 +689,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-123" y="428" width="1536" height="832" extended-state="0" />
+    <frame x="668" y="57" width="1536" height="766" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
@@ -681,10 +698,10 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49878934" visible="true" weight="0.3376184" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49878934" weight="0.34235454" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998326" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.28254437" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.3180328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739883" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -692,13 +709,12 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32885906" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4977307" weight="0.32658958" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32803467" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" weight="0.31213874" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" weight="0.6040462" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.3557047" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.3238255" />
       <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32998326" />
       <window_info anchor="bottom" id="JProfiler" order="14" />
       <window_info anchor="bottom" id="SonarLint" order="15" />
-      <window_info anchor="right" id="RestServices" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
@@ -711,6 +727,7 @@
       <window_info anchor="right" id="Key Promoter X" order="9" weight="0.32980332" />
       <window_info anchor="right" id="Word Book" order="10" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="BPMNPalette" order="11" />
+      <window_info anchor="right" id="RestServices" order="12" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.21633889" />
@@ -767,121 +784,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/java.util.Collection">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.Collection</OriginalElement>
-          <nodes>
-            <node x="349.93229166666674" y="348.0">java.util.concurrent.ArrayBlockingQueue</node>
-            <node x="103.5" y="174.0">java.util.List</node>
-            <node x="105.18229166666671" y="87.0">java.util.Collection</node>
-            <node x="10.5" y="174.0">java.util.Set</node>
-            <node x="259.35677083333337" y="261.0">java.util.concurrent.BlockingQueue</node>
-            <node x="293.68229166666674" y="174.0">java.util.Queue</node>
-            <node x="90.83854166666671" y="348.0">java.util.concurrent.LinkedBlockingQueue</node>
-            <node x="114.18229166666671" y="0.0">java.lang.Iterable</node>
-            <node x="106.75" y="261.0">java.util.ArrayList</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.util.ArrayList" target="java.util.Collection">
-              <point x="31.75" y="-18.5" />
-              <point x="202.0" y="236.0" />
-              <point x="196.0" y="236.0" />
-              <point x="196.0" y="154.0" />
-              <point x="184.51562500000006" y="154.0" />
-              <point x="11.333333333333343" y="18.5" />
-            </edge>
-            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.Collection">
-              <point x="69.33333333333331" y="-18.5" />
-              <point x="523.265625" y="323.0" />
-              <point x="481.15885416666674" y="323.0" />
-              <point x="481.15885416666674" y="144.0" />
-              <point x="229.8489583333334" y="144.0" />
-              <point x="56.666666666666686" y="18.5" />
-            </edge>
-            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.concurrent.BlockingQueue">
-              <point x="-69.33333333333331" y="-18.5" />
-              <point x="384.59895833333337" y="323.0" />
-              <point x="381.60677083333337" y="323.0" />
-              <point x="40.75" y="18.5" />
-            </edge>
-            <edge source="java.util.Queue" target="java.util.Collection">
-              <point x="0.0" y="-18.5" />
-              <point x="339.18229166666674" y="154.0" />
-              <point x="207.1822916666667" y="154.0" />
-              <point x="34.0" y="18.5" />
-            </edge>
-            <edge source="java.util.Set" target="java.util.Collection">
-              <point x="0.0" y="-18.5" />
-              <point x="47.0" y="154.0" />
-              <point x="139.1822916666667" y="154.0" />
-              <point x="-34.0" y="18.5" />
-            </edge>
-            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.Queue">
-              <point x="0.0" y="-18.5" />
-              <point x="453.93229166666674" y="323.0" />
-              <point x="470.15885416666674" y="323.0" />
-              <point x="470.15885416666674" y="236.0" />
-              <point x="369.51562500000006" y="236.0" />
-              <point x="30.333333333333314" y="18.5" />
-            </edge>
-            <edge source="java.util.List" target="java.util.Collection">
-              <point x="0.0" y="-18.5" />
-              <point x="144.5" y="154.0" />
-              <point x="161.8489583333334" y="154.0" />
-              <point x="-11.333333333333314" y="18.5" />
-            </edge>
-            <edge source="java.util.Collection" target="java.lang.Iterable">
-              <point x="0.0" y="-18.5" />
-              <point x="0.0" y="18.5" />
-            </edge>
-            <edge source="java.util.concurrent.LinkedBlockingQueue" target="java.util.concurrent.BlockingQueue">
-              <point x="72.33333333333331" y="-18.5" />
-              <point x="271.671875" y="323.0" />
-              <point x="300.10677083333337" y="323.0" />
-              <point x="-40.75" y="18.5" />
-            </edge>
-            <edge source="java.util.concurrent.LinkedBlockingQueue" target="java.util.Queue">
-              <point x="0.0" y="-18.5" />
-              <point x="199.3385416666667" y="323.0" />
-              <point x="244.25" y="323.0" />
-              <point x="244.25" y="236.0" />
-              <point x="308.84895833333337" y="236.0" />
-              <point x="-30.333333333333343" y="18.5" />
-            </edge>
-            <edge source="java.util.ArrayList" target="java.util.List">
-              <point x="-31.75" y="-18.5" />
-              <point x="138.5" y="236.0" />
-              <point x="144.5" y="236.0" />
-              <point x="0.0" y="18.5" />
-            </edge>
-            <edge source="java.util.concurrent.BlockingQueue" target="java.util.Queue">
-              <point x="0.0" y="-18.5" />
-              <point x="340.85677083333337" y="236.0" />
-              <point x="339.18229166666674" y="236.0" />
-              <point x="0.0" y="18.5" />
-            </edge>
-            <edge source="java.util.concurrent.LinkedBlockingQueue" target="java.util.Collection">
-              <point x="-72.33333333333331" y="-18.5" />
-              <point x="127.0052083333334" y="323.0" />
-              <point x="0.0" y="323.0" />
-              <point x="0.0" y="144.0" />
-              <point x="116.51562500000004" y="144.0" />
-              <point x="-56.66666666666667" y="18.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7851851851851852" x="-62.0" y="296.0" />
-          <SelectedNodes>
-            <node>java.util.Collection</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
     <entry file="file://$PROJECT_DIR$/myJUC.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1178,6 +1080,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/logging/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="214" column="34" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="139" column="14" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/lang/annotation/Retention.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_thread/CallableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42856">
+          <caret line="2026" column="31" selection-start-line="2026" selection-start-column="15" selection-end-line="2026" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SaleTicket_up1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
@@ -1212,60 +1162,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_thread/CallableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/logging/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="214" column="34" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="139" column="14" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/lang/annotation/Retention.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="2026" column="31" selection-start-line="2026" selection-start-column="15" selection-end-line="2026" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/testThreadPool/MyThreadPoolDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_deadlock/DeadLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+          <folding>
+            <element signature="e#460#518#0" />
+            <element signature="e#550#602#0" />
           </folding>
         </state>
       </provider>
