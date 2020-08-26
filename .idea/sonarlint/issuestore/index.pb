@@ -45,3 +45,5 @@ Dsrc/com/atguigu/day04_threadPool/test/ThreadPoolAWaitSignalDemo.java,f\3\f37b4
 -src/com/atguigu/test_thread/CallableDemo.java,0\1\016b78bdd75334c31c22c02544f3d8397c69580c
 d
 4src/com/atguigu/testThreadPool/MyThreadPoolDemo.java,3\1\317d0f8aa6db32be3ba8f8daf913c64b28a137d5
+_
+/src/com/atguigu/test_deadlock/DeadLockDemo.java,f\4\f42d98c216ada9267a9737a54e0ab5456ec4ad3e
