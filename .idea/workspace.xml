@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="233180ae-65bc-4acb-8cd2-79c02dd7da47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test_jvm/GCRootDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test_jvm/HelloGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test_jvm/ReferenceQueueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/016b78bdd75334c31c22c02544f3d8397c69580c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/016b78bdd75334c31c22c02544f3d8397c69580c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/317d0f8aa6db32be3ba8f8daf913c64b28a137d5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/317d0f8aa6db32be3ba8f8daf913c64b28a137d5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3647a78c5bc6085db2aac0923ac85e7271a83802" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3647a78c5bc6085db2aac0923ac85e7271a83802" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46cb082aec98ccbdf62a817b80dc93ec5a28d5c4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46cb082aec98ccbdf62a817b80dc93ec5a28d5c4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5985f337bf7f84fcb546f60a2b3236e60c3ec7f5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5985f337bf7f84fcb546f60a2b3236e60c3ec7f5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8bfb2fc18e827f2ccc428755f2c37858860779ff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8bfb2fc18e827f2ccc428755f2c37858860779ff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aedf78cf77b4de34615d410b3c1e04cbb28002d6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aedf78cf77b4de34615d410b3c1e04cbb28002d6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5d79e35fb48a32743a167b984017cda70733fca" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5d79e35fb48a32743a167b984017cda70733fca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f42d98c216ada9267a9737a54e0ab5456ec4ad3e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f42d98c216ada9267a9737a54e0ab5456ec4ad3e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/atguigu/test_deadlock/DeadLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myJUC/com/atguigu/test_deadlock/DeadLockDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/atguigu/test_jvm.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,31 +48,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/testThreadPool/MyThreadPoolDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_deadlock/DeadLockDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SynchronousQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="38" />
+            <state relative-caret-position="242">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/ProdConsumer_BlockQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-630">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="924">
+              <caret line="46" column="5" selection-start-line="44" selection-start-column="10" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,11 +71,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/GCRootDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="198">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="10" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/HelloGC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/ReferenceQueueDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#419#427#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,7 +170,11 @@
       <find>acquire()</find>
       <find>newState</find>
       <find>permits</find>
+      <find>o</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,8 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c79cda01-f814-4882-9dd2-cee9291edc51/console.sql" />
-        <option value="$PROJECT_DIR$/src/SaleTicket.java" />
         <option value="$PROJECT_DIR$/src/SaleTicket_up1.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/day01_saletickets/Thread.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SaleTicket.java" />
@@ -230,6 +236,8 @@
         <option value="$PROJECT_DIR$/src/com/atguigu/test_deadlock/DeadLockDemo.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/ProdConsumer_BlockQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/test_jvm/GCRootDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test_jvm/HelloGC.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test_jvm/ReferenceQueueDemo.java" />
       </list>
     </option>
   </component>
@@ -259,10 +267,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="978" />
+    <option name="width" value="1938" />
     <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -275,6 +283,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -422,7 +431,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,7 +476,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProdConsumer_BlockQueueDemo">
+  <component name="RunManager" selected="Application.ReferenceQueueDemo">
     <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test_thread.CallableDemo" />
       <module name="myJUC" />
@@ -488,6 +496,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atguigu.test_deadlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloGC" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_jvm.HelloGC" />
+      <module name="myJUC" />
+      <option name="VM_PARAMETERS" value="-Xms10m -Xmx10m -XX:+PrintGCDetails" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test_jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -521,12 +543,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncAndReetrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_blockingqueue.SyncAndReetrantLockDemo" />
+    <configuration name="ReferenceQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_jvm.ReferenceQueueDemo" />
       <module name="myJUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.test_blockingqueue.*" />
+          <option name="PATTERN" value="com.atguigu.test_jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -535,19 +557,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SyncAndReetrantLockDemo" />
+      <item itemvalue="Application.HelloGC" />
       <item itemvalue="Application.ProdConsumer_BlockQueueDemo" />
       <item itemvalue="Application.CallableDemo" />
       <item itemvalue="Application.MyThreadPoolDemo" />
       <item itemvalue="Application.DeadLockDemo" />
+      <item itemvalue="Application.ReferenceQueueDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReferenceQueueDemo" />
         <item itemvalue="Application.ProdConsumer_BlockQueueDemo" />
         <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.MyThreadPoolDemo" />
         <item itemvalue="Application.CallableDemo" />
-        <item itemvalue="Application.SyncAndReetrantLockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -599,7 +622,15 @@
       <workItem from="1597846441647" duration="2922000" />
       <workItem from="1597935202784" duration="2529000" />
       <workItem from="1598079609457" duration="618000" />
-      <workItem from="1598450010529" duration="2760000" />
+      <workItem from="1598450010529" duration="3248000" />
+      <workItem from="1598455316421" duration="375000" />
+      <workItem from="1598710020327" duration="3992000" />
+      <workItem from="1598757433068" duration="12000" />
+      <workItem from="1598881043200" duration="1677000" />
+      <workItem from="1598920825702" duration="22000" />
+      <workItem from="1598967373713" duration="2933000" />
+      <workItem from="1599007079020" duration="28000" />
+      <workItem from="1599486139021" duration="625000" />
     </task>
     <task id="LOCAL-00002" summary="12.16&#10;17:55">
       <created>1576490166182</created>
@@ -693,7 +724,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143530000" />
+    <option name="totallyTimeSpent" value="153682000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -705,7 +736,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="782" height="848" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
@@ -714,18 +745,18 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49878934" weight="0.7140884" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49878934" visible="true" weight="0.2386059" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998326" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.32934132" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.33959538" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739883" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.3238255" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32885906" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4977307" weight="0.32658958" />
-      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32803467" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" weight="0.43641618" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32692307" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" weight="0.43786126" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.3557047" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.3238255" />
       <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32998326" />
@@ -745,40 +776,6 @@
       <window_info anchor="right" id="BPMNPalette" order="11" />
       <window_info anchor="right" id="RestServices" order="12" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.21633889" />
-      <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32998326" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33668342" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39865997" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.32495812" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32998326" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" weight="0.32495812" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.32569557" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.32569557" />
-      <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32998326" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.2708018" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Key Promoter X" order="9" weight="0.32980332" />
-      <window_info anchor="right" id="Word Book" order="10" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -800,8 +797,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/develop/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/Semaphore.java" />
-    <entry file="jar://D:/develop/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" />
     <entry file="uml://JAVA/java.util.ArrayList">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1113,6 +1108,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm.java" />
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/testThreadPool/MyThreadPoolDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1120,6 +1116,40 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_deadlock/DeadLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SynchronousQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/ProdConsumer_BlockQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="46" column="5" selection-start-line="44" selection-start-column="10" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/GCRootDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1164,44 +1194,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_deadlock/DeadLockDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/HelloGC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="598">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/SynchronousQueueDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/ReferenceQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="186">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#419#427#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_blockingqueue/ProdConsumer_BlockQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/GCRootDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>

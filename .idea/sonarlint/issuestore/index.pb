@@ -47,3 +47,7 @@ d
 4src/com/atguigu/testThreadPool/MyThreadPoolDemo.java,3\1\317d0f8aa6db32be3ba8f8daf913c64b28a137d5
 _
 /src/com/atguigu/test_deadlock/DeadLockDemo.java,f\4\f42d98c216ada9267a9737a54e0ab5456ec4ad3e
+X
+(src/com/atguigu/test_jvm/GCRootDemo.java,d\c\dc1b82ebe3224fb655b7dc3be8198341ee86bf66
+U
+%src/com/atguigu/test_jvm/HelloGC.java,c\e\ce080fb6f6f6997d234bd62d0dfae0835102cf1f

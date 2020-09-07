@@ -1,8 +1,8 @@
 
-U	java:S1063"9Replace this use of System.out or System.err by a logger.(“›Ê¹8³‹õ¸À.
-N
-java:S16022",Remove useless curly braces around statement(‡Âúúúÿÿÿÿ8³‹õ¸À.
 U
 java:S1128"8Remove this unused import 'java.util.logging.LogRecord'.(á™—’8•úž¹À.
 Z	java:S106#"9Replace this use of System.out or System.err by a logger.(Ü¦ÕËúÿÿÿÿ8ÀšÍ¹À.
+N
+java:S16022",Remove useless curly braces around statement(‡Âúúúÿÿÿÿ8³‹õ¸À.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(žºÄž
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(“›Ê¹8³‹õ¸À.
