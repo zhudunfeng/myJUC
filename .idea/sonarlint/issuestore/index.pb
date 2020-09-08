@@ -51,3 +51,9 @@ X
 (src/com/atguigu/test_jvm/GCRootDemo.java,d\c\dc1b82ebe3224fb655b7dc3be8198341ee86bf66
 U
 %src/com/atguigu/test_jvm/HelloGC.java,c\e\ce080fb6f6f6997d234bd62d0dfae0835102cf1f
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+`
+0src/com/atguigu/test_jvm/ReferenceQueueDemo.java,1\7\1768fe3cf3e88511703fd0deb8e5fd955f6f6c78
+b
+2src/com/atguigu/test_jvm/PhantomReferenceDemo.java,2\2\22a5ad3a8f2fad73004eaa2f1fb172de07d81672

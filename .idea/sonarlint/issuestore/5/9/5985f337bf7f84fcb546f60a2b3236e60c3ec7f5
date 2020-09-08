@@ -1,22 +1,22 @@
 
-P
-java:S1128".Remove this unused import 'java.util.TreeMap'.(¨éˆèıÿÿÿÿ8Ê²ì¾.
+g	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(ÆÎôôûÿÿÿÿ8Œçì¾.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÜÎÒ¶üÿÿÿÿ8Ó°Ïë¾.
+n	java:S101;"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Û‚Ìÿÿÿÿÿ8¶‹ë¾.
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(Š”ù™ûÿÿÿÿ8¹îšì¾.
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(³»£ƒ8ìŒì¾.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ïı²¶şÿÿÿÿ8¢íËë¾.
+Z	java:S106R"9Replace this use of System.out or System.err by a logger.(ÂÃµıÿÿÿÿ8—Ì¦ì¾.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ê°ü×8Åİ™ë¾.
 
 java:S11301"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÆÎôôûÿÿÿÿ8ÀÙŸì¾.
-Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ÄÁäıÿÿÿÿ8·ôŞë¾.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ïı²¶şÿÿÿÿ8¢íËë¾.
 k	java:S116
 "ORename this field "FLAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ã§ü8‹öë¾.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Ê°ü×8Åİ™ë¾.
-Z	java:S106R"9Replace this use of System.out or System.err by a logger.(ÂÃµıÿÿÿÿ8—Ì¦ì¾.
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ıºˆ¾ıÿÿÿÿ8Š¾»ë¾.
-U	java:S106*"9Replace this use of System.out or System.err by a logger.(³»£ƒ8ìŒì¾.
-U	java:S106?"9Replace this use of System.out or System.err by a logger.(“€µê8óÖ—ì¾.
-g	java:S112#"FDefine and throw a dedicated exception instead of using a generic one.(¶¨è·ûÿÿÿÿ8¢Ğêë¾.
 Z	java:S106-"9Replace this use of System.out or System.err by a logger.(©¤ëûşÿÿÿÿ8ü§úë¾.
-Z	java:S106H"9Replace this use of System.out or System.err by a logger.(Š”ù™ûÿÿÿÿ8¹îšì¾.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÜÎÒ¶üÿÿÿÿ8Ó°Ïë¾.
+g	java:S112#"FDefine and throw a dedicated exception instead of using a generic one.(¶¨è·ûÿÿÿÿ8¢Ğêë¾.
+P
+java:S1128".Remove this unused import 'java.util.TreeMap'.(¨éˆèıÿÿÿÿ8Ê²ì¾.
 c
 java:S2142Q"FEither re-interrupt this method or rethrow the "InterruptedException".(ÔÔÔ8¡¦£ì¾.
-n	java:S101;"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Û‚Ìÿÿÿÿÿ8¶‹ë¾.
-g	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(ÆÎôôûÿÿÿÿ8Œçì¾.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ıºˆ¾ıÿÿÿÿ8Š¾»ë¾.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ÄÁäıÿÿÿÿ8·ôŞë¾.
+U	java:S106?"9Replace this use of System.out or System.err by a logger.(“€µê8óÖ—ì¾.
