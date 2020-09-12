@@ -1,10 +1,10 @@
 
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Û«‡ıÿÿÿÿ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
 ^
 java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(€­íÜüÿÿÿÿ
 C
 java:S3067
 "-Synchronize on the static class name instead.(üõù°
-\
-java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
 S	java:S106"9Replace this use of System.out or System.err by a logger.(á´ˆıÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Û«‡ıÿÿÿÿ

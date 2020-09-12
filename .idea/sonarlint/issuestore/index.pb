@@ -57,3 +57,7 @@ S
 0src/com/atguigu/test_jvm/ReferenceQueueDemo.java,1\7\1768fe3cf3e88511703fd0deb8e5fd955f6f6c78
 b
 2src/com/atguigu/test_jvm/PhantomReferenceDemo.java,2\2\22a5ad3a8f2fad73004eaa2f1fb172de07d81672
+_
+/src/com/atguigu/test_jvm/SoftReferenceDemo.java,b\9\b9b813710c7e2c662de4046b3e17d00d9da5d0f3
+_
+/src/com/atguigu/test_jvm/WeakReferenceDemo.java,7\2\72c873c1341e6f80e7da162810051bd93c9a1101

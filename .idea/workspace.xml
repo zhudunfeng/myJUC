@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="233180ae-65bc-4acb-8cd2-79c02dd7da47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test_jvm/WeakReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test_oom/GCOverHeadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test_oom/JavaHeapSpaceErrorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test_oom/StackOverflowErrorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/1768fe3cf3e88511703fd0deb8e5fd955f6f6c78" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/1768fe3cf3e88511703fd0deb8e5fd955f6f6c78" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22a5ad3a8f2fad73004eaa2f1fb172de07d81672" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22a5ad3a8f2fad73004eaa2f1fb172de07d81672" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3647a78c5bc6085db2aac0923ac85e7271a83802" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3647a78c5bc6085db2aac0923ac85e7271a83802" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5985f337bf7f84fcb546f60a2b3236e60c3ec7f5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5985f337bf7f84fcb546f60a2b3236e60c3ec7f5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8bfb2fc18e827f2ccc428755f2c37858860779ff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8bfb2fc18e827f2ccc428755f2c37858860779ff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aedf78cf77b4de34615d410b3c1e04cbb28002d6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aedf78cf77b4de34615d410b3c1e04cbb28002d6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5d79e35fb48a32743a167b984017cda70733fca" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5d79e35fb48a32743a167b984017cda70733fca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce080fb6f6f6997d234bd62d0dfae0835102cf1f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce080fb6f6f6997d234bd62d0dfae0835102cf1f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc1b82ebe3224fb655b7dc3be8198341ee86bf66" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc1b82ebe3224fb655b7dc3be8198341ee86bf66" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/atguigu/test_jvm/PhantomReferenceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myJUC/com/atguigu/test_jvm/PhantomReferenceDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/atguigu/test_jvm/WeakReferenceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myJUC/com/atguigu/test_jvm/WeakReferenceDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test_jvm/PhantomReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/test_jvm/PhantomReferenceDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,40 +52,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/GCRootDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="10" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/HelloGC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/ReferenceQueueDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/PhantomReferenceDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="101">
+              <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,61 +64,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/SoftReferenceDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_oom/StackOverflowErrorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+            <state relative-caret-position="110">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_oom/JavaHeapSpaceErrorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/WeakReferenceDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_oom/GCOverHeadDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SaleTicket_up1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/TestThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/ThreeInformation01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1694">
-              <caret line="79" column="46" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="223">
+              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -168,13 +121,12 @@
       </map>
     </option>
   </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day02_lam/Cake01.java" />
-        <option value="$PROJECT_DIR$/src/day02_lam/Temperature.java" />
-        <option value="$PROJECT_DIR$/src/day02_lam/ThreadWaitNotifyDemo_up01.java" />
-        <option value="$PROJECT_DIR$/src/day02_lam/ThreadAWaitSignlDemo.java" />
         <option value="$PROJECT_DIR$/src/day02_lam/ThreadAWaitSignalDemo.java" />
         <option value="$PROJECT_DIR$/src/day02_lam/ThreadWaitNotifyDemo.java" />
         <option value="$PROJECT_DIR$/src/day02_lam/Send.java" />
@@ -219,9 +171,13 @@
         <option value="$PROJECT_DIR$/src/com/atguigu/test_jvm/GCRootDemo.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/test_jvm/HelloGC.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/test_jvm/ReferenceQueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/test_jvm/PhantomReferenceDemo.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/test_jvm/SoftReferenceDemo.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/test_jvm/WeakReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test_jvm/PhantomReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test_oom/StackOverflowErrorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test_oom/JavaHeapSpaceErrorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test_oom/GCOverHeapDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test_oom/GCOverHeadDemo.java" />
       </list>
     </option>
   </component>
@@ -254,7 +210,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1939" />
+    <option name="width" value="1940" />
     <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -290,7 +246,7 @@
               <item name="myJUC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="test_jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="test_oom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
@@ -409,12 +365,27 @@
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="atomic" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -461,7 +432,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WeakReferenceDemo">
+  <component name="RunManager" selected="Application.GCOverHeadDemo">
+    <configuration name="GCOverHeadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_oom.GCOverHeadDemo" />
+      <module name="myJUC" />
+      <option name="VM_PARAMETERS" value="-Xms10m -Xmx10m -XX:+PrintGCDetails -XX:MaxDirectMemorySize=5m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test_oom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloGC" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test_jvm.HelloGC" />
       <module name="myJUC" />
@@ -469,6 +454,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atguigu.test_jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaHeapSpaceErrorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_oom.JavaHeapSpaceErrorDemo" />
+      <module name="myJUC" />
+      <option name="VM_PARAMETERS" value="-Xms10m -Xmx10m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test_oom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -489,39 +488,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdConsumer_BlockQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_blockingqueue.ProdConsumer_BlockQueueDemo" />
+    <configuration name="StackOverflowErrorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_oom.StackOverflowErrorDemo" />
       <module name="myJUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.test_blockingqueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReferenceQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_jvm.ReferenceQueueDemo" />
-      <module name="myJUC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.test_jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoftReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test_jvm.SoftReferenceDemo" />
-      <module name="myJUC" />
-      <option name="VM_PARAMETERS" value="-Xms5m -Xmx5m -XX:+PrintGCDetails" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.test_jvm.*" />
+          <option name="PATTERN" value="com.atguigu.test_oom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -544,19 +516,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.HelloGC" />
-      <item itemvalue="Application.ProdConsumer_BlockQueueDemo" />
-      <item itemvalue="Application.ReferenceQueueDemo" />
       <item itemvalue="Application.PhantomReferenceDemo" />
-      <item itemvalue="Application.SoftReferenceDemo" />
       <item itemvalue="Application.WeakReferenceDemo" />
+      <item itemvalue="Application.StackOverflowErrorDemo" />
+      <item itemvalue="Application.JavaHeapSpaceErrorDemo" />
+      <item itemvalue="Application.GCOverHeadDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WeakReferenceDemo" />
-        <item itemvalue="Application.SoftReferenceDemo" />
+        <item itemvalue="Application.GCOverHeadDemo" />
+        <item itemvalue="Application.JavaHeapSpaceErrorDemo" />
+        <item itemvalue="Application.StackOverflowErrorDemo" />
         <item itemvalue="Application.PhantomReferenceDemo" />
-        <item itemvalue="Application.ReferenceQueueDemo" />
-        <item itemvalue="Application.ProdConsumer_BlockQueueDemo" />
+        <item itemvalue="Application.WeakReferenceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -617,7 +589,9 @@
       <workItem from="1598967373713" duration="2933000" />
       <workItem from="1599007079020" duration="28000" />
       <workItem from="1599486139021" duration="2777000" />
-      <workItem from="1599575209977" duration="1964000" />
+      <workItem from="1599575209977" duration="2097000" />
+      <workItem from="1599611729292" duration="18000" />
+      <workItem from="1599919505108" duration="6897000" />
     </task>
     <task id="LOCAL-00002" summary="12.16&#10;17:55">
       <created>1576490166182</created>
@@ -718,7 +692,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157798000" />
+    <option name="totallyTimeSpent" value="164846000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -739,11 +713,10 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49878934" visible="true" weight="0.2419571" />
-      <window_info anchor="bottom" id="Sequence" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49878934" visible="true" weight="0.24865952" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998326" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.33959538" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.38583815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739883" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -751,15 +724,16 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32885906" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4977307" weight="0.32658958" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32692307" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" visible="true" weight="0.43786126" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" weight="0.1315029" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.3557047" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.3238255" />
       <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32998326" />
       <window_info anchor="bottom" id="JProfiler" order="14" />
       <window_info anchor="bottom" id="SonarLint" order="15" />
+      <window_info anchor="bottom" id="Sequence" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24932976" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.2708018" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -793,107 +767,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day04_threadPool/TestNoSafeArrayListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/ThreadPoolExecutor.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day04_threadPool/ThreadPoolSaleTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/Executors.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day04_threadPool/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day04_threadPool/ThreadPoolAWaitSignalDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day02_lam/Lock8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-359">
-          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/ReadWriteLockDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/SemaphoreDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/CallableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day02_lam/NoSateListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="3" selection-start-line="21" selection-start-column="25" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/CyclicBarrierDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/day03_printThree/ReadWriteLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
@@ -1121,6 +994,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/HelloGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/ReferenceQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/SaleTicket_up1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
@@ -1128,13 +1018,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/TestThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1155,51 +1038,407 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/WeakReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/GCRootDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/HelloGC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/ReferenceQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/PhantomReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/SoftReferenceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="350">
           <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/WeakReferenceDemo.java">
+    <entry file="uml://JAVA/javax.management.Query">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>javax.management.Query</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.management.Query</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5699263932702419" x="201.5" y="455.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state relative-caret-position="189">
+          <caret line="164" column="17" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="20" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/day01_saletickets/TestThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/util/concurrent/DelayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/javax/management/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.SynchronousQueue">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.SynchronousQueue</OriginalElement>
+          <nodes>
+            <node x="208.5" y="164.0">java.util.AbstractCollection</node>
+            <node x="175.5" y="328.0">java.util.concurrent.SynchronousQueue</node>
+            <node x="142.28125" y="82.0">java.util.Collection</node>
+            <node x="190.0" y="246.0">java.util.AbstractQueue</node>
+            <node x="0.0" y="246.0">java.util.concurrent.BlockingQueue</node>
+            <node x="61.5" y="164.0">java.util.Queue</node>
+            <node x="152.28125" y="0.0">java.lang.Iterable</node>
+            <node x="380.0" y="246.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.concurrent.SynchronousQueue" target="java.io.Serializable">
+              <point x="66.33333333333331" y="-16.0" />
+              <point x="341.3333333333333" y="303.0" />
+              <point x="460.5" y="303.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.SynchronousQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="-66.33333333333331" y="-16.0" />
+              <point x="208.66666666666669" y="303.0" />
+              <point x="85.0" y="303.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="java.util.AbstractQueue" target="java.util.AbstractCollection">
+              <point x="42.5" y="-16.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-16.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.SynchronousQueue" target="java.util.AbstractQueue">
+              <point x="0.0" y="-16.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.BlockingQueue" target="java.util.Queue">
+              <point x="0.0" y="-16.0" />
+              <point x="-23.5" y="16.0" />
+            </edge>
+            <edge source="java.util.Queue" target="java.util.Collection">
+              <point x="0.0" y="-16.0" />
+              <point x="108.5" y="139.0" />
+              <point x="177.78125" y="139.0" />
+              <point x="-35.5" y="16.0" />
+            </edge>
+            <edge source="java.util.AbstractCollection" target="java.util.Collection">
+              <point x="0.0" y="-16.0" />
+              <point x="317.5" y="139.0" />
+              <point x="248.78125" y="139.0" />
+              <point x="35.5" y="16.0" />
+            </edge>
+            <edge source="java.util.AbstractQueue" target="java.util.Queue">
+              <point x="-42.5" y="-16.0" />
+              <point x="232.5" y="221.0" />
+              <point x="132.0" y="221.0" />
+              <point x="23.5" y="16.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-68.0" y="149.0" />
+          <SelectedNodes>
+            <node>java.util.concurrent.SynchronousQueue</node>
+            <node>java.io.Serializable</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/util/concurrent/SynchronousQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.ArrayList">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.ArrayList</OriginalElement>
+          <nodes>
+            <node x="1074.75" y="378.0">java.util.concurrent.LinkedTransferQueue</node>
+            <node x="102.75" y="378.0">java.util.concurrent.SynchronousQueue</node>
+            <node x="874.25" y="0.0">java.util.Collection</node>
+            <node x="944.25" y="266.0">java.util.AbstractQueue</node>
+            <node x="1484.75" y="378.0">java.util.concurrent.LinkedBlockingQueue</node>
+            <node x="321.75" y="378.0">java.util.concurrent.PriorityBlockingQueue</node>
+            <node x="929.25" y="164.0">java.util.ArrayList</node>
+            <node x="836.75" y="378.0">java.util.concurrent.ArrayBlockingQueue</node>
+            <node x="820.25" y="82.0">java.util.List</node>
+            <node x="588.75" y="378.0">java.util.concurrent.LinkedBlockingDeque</node>
+            <node x="1322.75" y="378.0">java.util.concurrent.DelayQueue</node>
+            <node x="815.25" y="164.0">java.util.Queue</node>
+            <node x="0.0" y="266.0">java.util.LinkedList</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.concurrent.PriorityBlockingQueue" target="java.util.Queue">
+              <point x="-61.75" y="-16.0" />
+              <point x="383.5" y="236.0" />
+              <point x="841.3611111111111" y="236.0" />
+              <point x="-20.888888888888914" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedTransferQueue" target="java.util.AbstractQueue">
+              <point x="-57.0" y="-16.0" />
+              <point x="1131.75" y="358.0" />
+              <point x="1053.5357142857142" y="358.0" />
+              <point x="24.285714285714334" y="16.0" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.Collection">
+              <point x="33.0" y="-16.0" />
+              <point x="1028.25" y="62.0" />
+              <point x="963.0" y="62.0" />
+              <point x="17.75" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.PriorityBlockingQueue" target="java.util.AbstractQueue">
+              <point x="61.75" y="-16.0" />
+              <point x="507.0" y="338.0" />
+              <point x="980.6785714285714" y="338.0" />
+              <point x="-48.571428571428555" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedBlockingDeque" target="java.util.Queue">
+              <point x="-57.0" y="-16.0" />
+              <point x="645.75" y="246.0" />
+              <point x="851.8055555555555" y="246.0" />
+              <point x="-10.444444444444457" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedTransferQueue" target="java.util.Queue">
+              <point x="57.0" y="-16.0" />
+              <point x="1245.75" y="236.0" />
+              <point x="883.1388888888889" y="236.0" />
+              <point x="20.888888888888914" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.AbstractQueue">
+              <point x="54.5" y="-16.0" />
+              <point x="1000.25" y="358.0" />
+              <point x="1029.25" y="358.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.DelayQueue" target="java.util.AbstractQueue">
+              <point x="-35.5" y="-16.0" />
+              <point x="1358.25" y="348.0" />
+              <point x="1077.8214285714287" y="348.0" />
+              <point x="48.57142857142867" y="16.0" />
+            </edge>
+            <edge source="java.util.LinkedList" target="java.util.List">
+              <point x="0.0" y="-16.0" />
+              <point x="71.0" y="246.0" />
+              <point x="52.83333333333337" y="246.0" />
+              <point x="52.83333333333337" y="139.0" />
+              <point x="834.25" y="139.0" />
+              <point x="-28.0" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.DelayQueue" target="java.util.Queue">
+              <point x="35.5" y="-16.0" />
+              <point x="1429.25" y="226.0" />
+              <point x="893.5833333333334" y="226.0" />
+              <point x="31.33333333333337" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.SynchronousQueue" target="java.util.AbstractQueue">
+              <point x="49.75" y="-16.0" />
+              <point x="252.0" y="328.0" />
+              <point x="956.3928571428571" y="328.0" />
+              <point x="-72.85714285714289" y="16.0" />
+            </edge>
+            <edge source="java.util.AbstractQueue" target="java.util.Queue">
+              <point x="-42.5" y="-16.0" />
+              <point x="986.75" y="246.0" />
+              <point x="872.6944444444445" y="246.0" />
+              <point x="10.444444444444457" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.SynchronousQueue" target="java.util.Queue">
+              <point x="-49.75" y="-16.0" />
+              <point x="152.5" y="226.0" />
+              <point x="830.9166666666666" y="226.0" />
+              <point x="-31.33333333333337" y="16.0" />
+            </edge>
+            <edge source="java.util.AbstractQueue" target="java.util.Collection">
+              <point x="42.5" y="-16.0" />
+              <point x="1071.75" y="246.0" />
+              <point x="1187.9416208791208" y="246.0" />
+              <point x="1187.9416208791208" y="52.0" />
+              <point x="998.5" y="52.0" />
+              <point x="53.25" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.Queue">
+              <point x="-54.5" y="-16.0" />
+              <point x="891.25" y="318.0" />
+              <point x="862.25" y="318.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="java.util.List" target="java.util.Collection">
+              <point x="0.0" y="-16.0" />
+              <point x="862.25" y="62.0" />
+              <point x="927.5" y="62.0" />
+              <point x="-17.75" y="16.0" />
+            </edge>
+            <edge source="java.util.LinkedList" target="java.util.Queue">
+              <point x="47.33333333333334" y="-16.0" />
+              <point x="118.33333333333337" y="216.0" />
+              <point x="820.4722222222222" y="216.0" />
+              <point x="-41.77777777777783" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedBlockingQueue" target="java.util.AbstractQueue">
+              <point x="-57.0" y="-16.0" />
+              <point x="1541.75" y="338.0" />
+              <point x="1102.107142857143" y="338.0" />
+              <point x="72.85714285714289" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedBlockingDeque" target="java.util.AbstractQueue">
+              <point x="57.0" y="-16.0" />
+              <point x="759.75" y="348.0" />
+              <point x="1004.9642857142858" y="348.0" />
+              <point x="-24.28571428571422" y="16.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedBlockingQueue" target="java.util.Queue">
+              <point x="57.0" y="-16.0" />
+              <point x="1655.75" y="216.0" />
+              <point x="904.0277777777778" y="216.0" />
+              <point x="41.77777777777783" y="16.0" />
+            </edge>
+            <edge source="java.util.Queue" target="java.util.List">
+              <point x="0.0" y="-16.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="java.util.LinkedList" target="java.util.Collection">
+              <point x="-47.33333333333337" y="-16.0" />
+              <point x="23.66666666666663" y="246.0" />
+              <point x="41.83333333333337" y="246.0" />
+              <point x="41.83333333333337" y="52.0" />
+              <point x="892.0" y="52.0" />
+              <point x="-53.25" y="16.0" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.List">
+              <point x="-33.0" y="-16.0" />
+              <point x="962.25" y="139.0" />
+              <point x="890.25" y="139.0" />
+              <point x="28.0" y="16.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="852.0" y="209.0" />
+          <SelectedNodes>
+            <node>java.util.Queue</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_jvm/PhantomReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/RewriteException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.atguigu.test_oom.StackOverflowErrorDemo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.atguigu.test_oom.StackOverflowErrorDemo</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.Throwable</node>
+            <node x="" y="">java.lang.StackOverflowError</node>
+            <node x="" y="">java.lang.Error</node>
+            <node x="" y="">java.util.concurrent.CompletionException</node>
+            <node x="" y="">java.lang.RuntimeException</node>
+            <node x="" y="">java.lang.OutOfMemoryError</node>
+            <node x="" y="">java.lang.Exception</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="144.5" y="107.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_oom/StackOverflowErrorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_oom/JavaHeapSpaceErrorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test_oom/GCOverHeadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
         </state>
       </provider>
     </entry>

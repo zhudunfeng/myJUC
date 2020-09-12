@@ -1,7 +1,9 @@
 package com.atguigu.test_jvm;
 
+import javax.management.Query;
 import java.lang.ref.PhantomReference;
 import java.lang.ref.ReferenceQueue;
+import java.util.ArrayList;
 
 /**
  * @author zhudunfeng
