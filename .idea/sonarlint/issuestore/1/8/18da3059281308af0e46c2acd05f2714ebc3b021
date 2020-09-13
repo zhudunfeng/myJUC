@@ -1,16 +1,0 @@
-
-\
-java:S2142R"FEither re-interrupt this method or rethrow the "InterruptedException".(δ Ή€
-\
-java:S2142;"FEither re-interrupt this method or rethrow the "InterruptedException".(δ Ή€
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ομΊ²
-)
-java:S1700"Rename field "cake"(–‡·
-\
-java:S2142G"FEither re-interrupt this method or rethrow the "InterruptedException".(δ Ή€
-Q	java:S125?"<This block of commented-out lines of code should be removed.(ƒζ α
-h
-java:S3776("RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ηµν‘
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ομΊ²
-\
-java:S21420"FEither re-interrupt this method or rethrow the "InterruptedException".(δ Ή€

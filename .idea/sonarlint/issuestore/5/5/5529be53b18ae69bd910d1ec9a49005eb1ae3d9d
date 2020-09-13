@@ -1,0 +1,12 @@
+
+q
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8õ«ªÚÂ.
+]	java:S125"<This block of commented-out lines of code should be removed.(±”Ãüÿÿÿÿ8³Î£ÚÂ.
+D
+java:S1481"'Remove this unused "t1" local variable.(Ýª¦Ú8‚¸ò¥Ä.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(íÞÁ£ÿÿÿÿÿ8¬¹«ÚÂ.
+J
+java:S1068"-Remove this unused "byteArray" private field.(Ò›Ýë8‚¸ò¥Ä.
+]	java:S125"<This block of commented-out lines of code should be removed.(Éá’Çúÿÿÿÿ8±Û³ÚÂ.
+S
+java:S1854"6Remove this useless assignment to local variable "t1".(Ýª¦Ú8Ÿ©ÚÂ.

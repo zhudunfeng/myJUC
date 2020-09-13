@@ -1,20 +1,0 @@
-
-E
-java:S3740"/Provide the parametrized type for this generic.(’âÃ˜
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾Ó„±þÿÿÿÿ
-m
-java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(’âÃ˜
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÅØüøùÿÿÿÿ
-\
-java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
->	java:S108")Either remove or fill this block of code.(Úîø›
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Äöõ 
-M	java:S106&"9Replace this use of System.out or System.err by a logger.(¾ä
-\
-java:S2142*"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
->	java:S108,")Either remove or fill this block of code.(Úîø›
-N	java:S1060"9Replace this use of System.out or System.err by a logger.(¦¶½Í
-B
-java:S1602M",Remove useless curly braces around statement(¥—ýð
-B
-java:S1602T",Remove useless curly braces around statement(¥—ýð

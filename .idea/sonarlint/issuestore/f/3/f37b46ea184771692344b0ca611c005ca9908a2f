@@ -1,18 +1,0 @@
-
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(–Õ§¼şÿÿÿÿ
-V	java:S125/"<This block of commented-out lines of code should be removed.(½Â½ƒıÿÿÿÿ
-Q	java:S125*"<This block of commented-out lines of code should be removed.(©ŞÛï
-o
-java:S2293O"YReplace the type specification in this constructor call with the diamond operator ("<>").(óæŒİ
-\
-java:S2142["FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚›²úÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(©ŞÛï
-N	java:S106."9Replace this use of System.out or System.err by a logger.(ïìº²
-P	java:S125Z"<This block of commented-out lines of code should be removed.(´Ú›U
-V	java:S125C"<This block of commented-out lines of code should be removed.(ß€Íèøÿÿÿÿ
-\
-java:S2142d"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-V	java:S125"<This block of commented-out lines of code should be removed.(½Â½ƒıÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ïìº²
-V	java:S125l"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
