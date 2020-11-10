@@ -31,3 +31,12 @@ a
 1src/com/adun/test_oom/JavaHeapSpaceErrorDemo.java,e\b\eb84a08d147a442f68501077a63f28f17bd6cad7
 a
 1src/com/adun/test_oom/StackOverflowErrorDemo.java,b\e\beed00fd81b423e0a186f21ccfa98a5ca13426cb
+d
+4src/com/adun/day03_printThree/ReadWriteLockDemo.java,d\e\decdc5be4b9d236665d0858283617e1572c5c246
+c
+3src/com/adun/day03_printThree/ThreeInformation.java,1\4\1487131ffeedd79c4b20b91bfb168adfd5aa1392
+^
+.src/com/adun/day01_saletickets/SaleTicket.java,6\a\6ae02bf37c2dc875fdec244c80cd9f1f46d7ecf9
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
