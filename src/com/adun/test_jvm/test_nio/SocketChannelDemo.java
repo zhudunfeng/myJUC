@@ -8,6 +8,12 @@ import java.nio.channels.SocketChannel;
 /**
  * @author zhudunfeng
  * @date 2020/11/10 23:27
+ *
+ * 通过上面的例子可以知道，通过ServerSocketChannel.open()方法可以获取服务器的通道，然后绑定一个地址端口号，接着accept()方法可获得一个SocketChannel通道，也就是客户端的连接通道。
+ *
+ * 最后配合使用Buffer进行读写即可。
+ *
+ * 这就是一个简单的例子，实际上上面的例子是阻塞式的。要做到非阻塞还需要使用选择器Selector。
  */
 public class SocketChannelDemo {
     public static void main(String[] args) throws Exception {

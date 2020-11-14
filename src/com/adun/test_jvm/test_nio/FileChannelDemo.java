@@ -9,6 +9,16 @@ import java.nio.channels.FileChannel;
 /**
  * @author zhudunfeng
  * @date 2020/11/10 23:25
+ *
+ * 常用的Channel有这四种：
+ *
+ * FileChannel，读写文件中的数据。
+ * SocketChannel，通过TCP读写网络中的数据。
+ * ServerSockectChannel，监听新进来的TCP连接，像Web服务器那样。对每一个新进来的连接都会创建一个SocketChannel。
+ * DatagramChannel，通过UDP读写网络中的数据。
+ *
+ * Channel本身并不存储数据，只是负责数据的运输。
+ * ***必须要和Buffer一起使用。***
  */
 public class FileChannelDemo {
     public static void main(String[] args) throws Exception {

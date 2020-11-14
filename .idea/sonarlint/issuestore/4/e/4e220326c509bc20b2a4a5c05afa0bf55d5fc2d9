@@ -1,12 +1,12 @@
 
-Z	java:S106("9Replace this use of System.out or System.err by a logger.(Â’äáøÿÿÿÿ8½ÄÇÆ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Â’äáøÿÿÿÿ8âøÀÇÆ.
 U	java:S106"9Replace this use of System.out or System.err by a logger.(¦‰±¥8İà¿ÇÆ.
-q
-java:S1215$"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8­ÁÃÇÆ.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ïõõ	8İà¿ÇÆ.
 {
 java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").( Ÿ‚‰ûÿÿÿÿ8Õó½ÇÆ.
-T	java:S106"9Replace this use of System.out or System.err by a logger.(ïõõ	8İà¿ÇÆ.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Â’äáøÿÿÿÿ8âøÀÇÆ.
+q
+java:S1215$"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8­ÁÃÇÆ.
 U	java:S106'"9Replace this use of System.out or System.err by a logger.(¦‰±¥8½ÄÇÆ.
-T	java:S106&"9Replace this use of System.out or System.err by a logger.(ïõõ	8½ÄÇÆ.
 Z	java:S106 "9Replace this use of System.out or System.err by a logger.(Ó¾Ğšşÿÿÿÿ8®ŞÁÇÆ.
+T	java:S106&"9Replace this use of System.out or System.err by a logger.(ïõõ	8½ÄÇÆ.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(Â’äáøÿÿÿÿ8½ÄÇÆ.

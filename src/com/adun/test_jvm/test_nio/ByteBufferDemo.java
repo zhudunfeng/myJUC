@@ -5,6 +5,13 @@ import java.nio.ByteBuffer;
 /**
  * @author zhudunfeng
  * @date 2020/11/10 23:24
+ *
+ * 我们先看以下这张类图，可以看到Buffer有七种类型。
+ *
+ * ByteBuffer/ShortBuffer/IntBuffer/LongBuffer/FloatBuffer/DoubleBuffer
+ *
+ * Buffer是一个内存块。在NIO中，所有的数据都是用Buffer处理，有读写两种模式。
+ * 所以NIO和传统的IO的区别就体现在这里。传统IO是面向Stream流，NIO而是面向缓冲区(Buffer)。
  */
 public class ByteBufferDemo {
     public static void main(String[] args) throws Exception {

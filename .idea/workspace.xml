@@ -2,83 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01a19280-e0ea-423a-9fc6-6b24e0bd177f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/ByteBufferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/FileChannelDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIODemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/SocketChannelDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/2013f1e69bb3583e67044749b772162584e72f7d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/2013f1e69bb3583e67044749b772162584e72f7d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/GroupChatClinet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/GroupChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/SelectorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e220326c509bc20b2a4a5c05afa0bf55d5fc2d9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e220326c509bc20b2a4a5c05afa0bf55d5fc2d9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/5529be53b18ae69bd910d1ec9a49005eb1ae3d9d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/5529be53b18ae69bd910d1ec9a49005eb1ae3d9d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b75d642333c9249705009bf6467a58acc158c5b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b75d642333c9249705009bf6467a58acc158c5b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7cabe3aa60e6f491518bb009c08611ebbc151739" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7cabe3aa60e6f491518bb009c08611ebbc151739" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d16337da364649fce35138ca01e74248515cc1a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d16337da364649fce35138ca01e74248515cc1a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/8230c70af527366a52ea103c63e761e87f046307" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/8230c70af527366a52ea103c63e761e87f046307" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/977bc6f5fc4ad89e52ce378ca93ba3cb8a8fe64d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/977bc6f5fc4ad89e52ce378ca93ba3cb8a8fe64d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/aba/ABATest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day01_saletickets/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day01_saletickets/SalePicket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day01_saletickets/SaleTicket$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day01_saletickets/SaleTicket$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day01_saletickets/SaleTicket$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day01_saletickets/SaleTicket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day01_saletickets/SaleTicket_up1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day01_saletickets/TestThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day01_saletickets/Ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day01_saletickets/Ticket_up1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day02_lam/Cake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day02_lam/Cake_up01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day02_lam/Lock8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day02_lam/NoSateListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day02_lam/Phone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day02_lam/ThreadAWaitSignalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day02_lam/ThreadWaitNotifyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day03_printThree/CallableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day03_printThree/CountDownLatchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day03_printThree/CyclicBarrierDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day03_printThree/MyCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day03_printThree/MyCache01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day03_printThree/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day03_printThree/ReadWriteLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day03_printThree/ReadWriteLockDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day03_printThree/SemaphoreDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day03_printThree/ShareData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day03_printThree/ShareData01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day03_printThree/ThreeInformation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day03_printThree/ThreeInformation01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day04_threadPool/BlockingQueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day04_threadPool/Cake_up01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day04_threadPool/MyThreadPoolDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day04_threadPool/TestArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day04_threadPool/TestNoSafeArrayListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day04_threadPool/ThreadPoolAWaitSignalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day04_threadPool/ThreadPoolSaleTicket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day04_threadPool/Ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day04_threadPool/test/Cake_up01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/day04_threadPool/test/ThreadPoolAWaitSignalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_blockingqueue/MyResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_blockingqueue/ProdConsumer_BlockQueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_blockingqueue/ProdConsumer_TraditionDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_blockingqueue/ShareData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_blockingqueue/ShareResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_blockingqueue/SyncAndReetrantLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_blockingqueue/SynchronousQueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_deadlock/DeadLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_deadlock/HoldLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_jvm/GCRootDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_jvm/HelloGC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_jvm/PhantomReferenceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_jvm/ReferenceQueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_jvm/SoftReferenceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_jvm/WeakReferenceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_oom/DirectBufferMemoryDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_oom/GCOverHeadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_oom/JavaHeapSpaceErrorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_oom/StackOverflowErrorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_thread/CallableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_thread/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_thread/MyThread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/test_thread/MyThread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/volatiletest/MyData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/volatiletest/VolatileDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJUC/com/adun/volatiletest/VolatileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/ByteBufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/ByteBufferDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/FileChannelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/FileChannelDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIODemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIODemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/SocketChannelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/SocketChannelDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,82 +38,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/HelloGC.java">
+        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/SelectorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/PhantomReferenceDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/ReferenceQueueDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/SoftReferenceDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/GCRootDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIODemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/ByteBufferDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/FileChannelDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            <state relative-caret-position="3740">
+              <caret line="178" selection-start-line="178" selection-end-line="178" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,10 +50,85 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/SocketChannelDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIOServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            <state relative-caret-position="990">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIOClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/nio/channels/SelectionKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4752">
+              <caret line="240" column="46" selection-start-line="240" selection-start-column="46" selection-end-line="240" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIODemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/GroupChatServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1672">
+              <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/ByteBufferDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/FileChannelDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="17" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/GroupChatClinet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -215,11 +160,16 @@
         <option value="$PROJECT_DIR$/src/com/adun/aba/Hello.java" />
         <option value="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/BufferDemo.java" />
         <option value="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/ChannelDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIODemo.java" />
         <option value="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/ByteBufferDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/FileChannelDemo.java" />
         <option value="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/SocketChannelDemo.java" />
         <option value="$PROJECT_DIR$/1.txt" />
-        <option value="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/FileChannelDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIODemo.java" />
+        <option value="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/SelectorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIOServer.java" />
+        <option value="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIOClient.java" />
+        <option value="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/GroupChatClinet.java" />
+        <option value="$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/GroupChatServer.java" />
       </list>
     </option>
   </component>
@@ -238,6 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,41 +215,10 @@
               <item name="adun" type="462c0819:PsiDirectoryNode" />
               <item name="test_jvm" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adun" type="462c0819:PsiDirectoryNode" />
-              <item name="test_jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="test_nio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adun" type="462c0819:PsiDirectoryNode" />
-              <item name="test_oom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adun" type="462c0819:PsiDirectoryNode" />
-              <item name="test_thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adun" type="462c0819:PsiDirectoryNode" />
-              <item name="testThreadPool" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,7 +229,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -322,9 +243,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SocketChannelDemo">
-    <configuration name="ByteBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.adun.test_jvm.test_nio.ByteBufferDemo" />
+  <component name="RunManager" selected="Application.GroupChatClinet">
+    <configuration name="GroupChatClinet (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.adun.test_jvm.test_nio.GroupChatClinet" />
       <module name="myJUC" />
       <extension name="coverage">
         <pattern>
@@ -336,8 +257,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileChannelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.adun.test_jvm.test_nio.FileChannelDemo" />
+    <configuration name="GroupChatClinet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.adun.test_jvm.test_nio.GroupChatClinet" />
       <module name="myJUC" />
       <extension name="coverage">
         <pattern>
@@ -349,21 +270,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.adun.aba.Hello" />
-      <module name="myJUC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.adun.aba.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SocketChannelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.adun.test_jvm.test_nio.SocketChannelDemo" />
+    <configuration name="GroupChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.adun.test_jvm.test_nio.GroupChatServer" />
       <module name="myJUC" />
       <extension name="coverage">
         <pattern>
@@ -375,7 +283,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BufferDemo.createHeapMembory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.adun.test_jvm.test_nio.NIOClient" />
+      <module name="myJUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adun.test_jvm.test_nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.adun.test_jvm.test_nio.NIOServer" />
+      <module name="myJUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adun.test_jvm.test_nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectorDemo.allocateDirect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myJUC" />
       <extension name="coverage">
         <pattern>
@@ -384,27 +318,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.adun.test_jvm.test_nio" />
-      <option name="MAIN_CLASS_NAME" value="com.adun.test_jvm.test_nio.BufferDemo" />
-      <option name="METHOD_NAME" value="createHeapMembory" />
+      <option name="MAIN_CLASS_NAME" value="com.adun.test_jvm.test_nio.SelectorDemo" />
+      <option name="METHOD_NAME" value="allocateDirect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Hello" />
-      <item itemvalue="Application.ByteBufferDemo" />
-      <item itemvalue="Application.FileChannelDemo" />
-      <item itemvalue="Application.SocketChannelDemo" />
-      <item itemvalue="JUnit.BufferDemo.createHeapMembory" />
+      <item itemvalue="Application.GroupChatClinet (1)" />
+      <item itemvalue="Application.NIOServer" />
+      <item itemvalue="Application.NIOClient" />
+      <item itemvalue="Application.GroupChatServer" />
+      <item itemvalue="Application.GroupChatClinet" />
+      <item itemvalue="JUnit.SelectorDemo.allocateDirect" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SocketChannelDemo" />
-        <item itemvalue="Application.FileChannelDemo" />
-        <item itemvalue="Application.ByteBufferDemo" />
-        <item itemvalue="Application.Hello" />
-        <item itemvalue="JUnit.BufferDemo.createHeapMembory" />
+        <item itemvalue="Application.GroupChatClinet" />
+        <item itemvalue="Application.GroupChatServer" />
+        <item itemvalue="Application.NIOClient" />
+        <item itemvalue="Application.NIOServer" />
+        <item itemvalue="JUnit.SelectorDemo.allocateDirect" />
       </list>
     </recent_temporary>
   </component>
@@ -439,48 +374,57 @@
       <workItem from="1604930606085" duration="3115000" />
       <workItem from="1604937764893" duration="32000" />
       <workItem from="1604999674207" duration="5865000" />
-      <workItem from="1605021534234" duration="750000" />
+      <workItem from="1605021534234" duration="931000" />
+      <workItem from="1605055456061" duration="24000" />
+      <workItem from="1605091974409" duration="4962000" />
+      <workItem from="1605103197534" duration="5588000" />
+      <workItem from="1605141797971" duration="52000" />
+      <workItem from="1605146216622" duration="3481000" />
+      <workItem from="1605152283400" duration="888000" />
+      <workItem from="1605192677482" duration="3522000" />
+      <workItem from="1605228392753" duration="93000" />
+      <workItem from="1605280338475" duration="3236000" />
+      <workItem from="1605363684775" duration="602000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BufferDemo_createHeapMembory - 2020.11.09 at 22h 13m 36s.xml">
-      <configuration name="BufferDemo.createHeapMembory" configurationId="JUnit" />
+    <history-entry file="SelectorDemo_allocateDirect - 2020.11.11 at 22h 26m 30s.xml">
+      <configuration name="SelectorDemo.allocateDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BufferDemo_createHeapMembory - 2020.11.09 at 22h 14m 16s.xml">
-      <configuration name="BufferDemo.createHeapMembory" configurationId="JUnit" />
+    <history-entry file="SelectorDemo_allocateDirect - 2020.11.11 at 22h 28m 29s.xml">
+      <configuration name="SelectorDemo.allocateDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BufferDemo_createHeapMembory - 2020.11.09 at 22h 14m 25s.xml">
-      <configuration name="BufferDemo.createHeapMembory" configurationId="JUnit" />
+    <history-entry file="SelectorDemo_allocateDirect - 2020.11.11 at 22h 28m 47s.xml">
+      <configuration name="SelectorDemo.allocateDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BufferDemo_createHeapMembory - 2020.11.09 at 22h 31m 09s.xml">
-      <configuration name="BufferDemo.createHeapMembory" configurationId="JUnit" />
+    <history-entry file="SelectorDemo_allocateDirect - 2020.11.11 at 22h 29m 15s.xml">
+      <configuration name="SelectorDemo.allocateDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BufferDemo_createHeapMembory - 2020.11.09 at 22h 31m 15s.xml">
-      <configuration name="BufferDemo.createHeapMembory" configurationId="JUnit" />
+    <history-entry file="SelectorDemo_allocateDirect - 2020.11.11 at 22h 29m 23s.xml">
+      <configuration name="SelectorDemo.allocateDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BufferDemo_createHeapMembory - 2020.11.09 at 22h 33m 05s.xml">
-      <configuration name="BufferDemo.createHeapMembory" configurationId="JUnit" />
+    <history-entry file="SelectorDemo_allocateDirect - 2020.11.11 at 22h 38m 15s.xml">
+      <configuration name="SelectorDemo.allocateDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BufferDemo_createHeapMembory - 2020.11.09 at 22h 37m 54s.xml">
-      <configuration name="BufferDemo.createHeapMembory" configurationId="JUnit" />
+    <history-entry file="SelectorDemo_allocateDirect - 2020.11.11 at 22h 38m 41s.xml">
+      <configuration name="SelectorDemo.allocateDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BufferDemo_createHeapMembory - 2020.11.09 at 22h 38m 10s.xml">
-      <configuration name="BufferDemo.createHeapMembory" configurationId="JUnit" />
+    <history-entry file="SelectorDemo_allocateDirect - 2020.11.11 at 22h 41m 00s.xml">
+      <configuration name="SelectorDemo.allocateDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BufferDemo_createHeapMembory - 2020.11.09 at 22h 39m 19s.xml">
-      <configuration name="BufferDemo.createHeapMembory" configurationId="JUnit" />
+    <history-entry file="SelectorDemo_allocateDirect - 2020.11.11 at 22h 42m 08s.xml">
+      <configuration name="SelectorDemo.allocateDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BufferDemo_createHeapMembory - 2020.11.09 at 22h 39m 54s.xml">
-      <configuration name="BufferDemo.createHeapMembory" configurationId="JUnit" />
+    <history-entry file="SelectorDemo_allocateDirect - 2020.11.11 at 22h 42m 47s.xml">
+      <configuration name="SelectorDemo.allocateDirect" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33994000" />
+    <option name="totallyTimeSpent" value="56623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
       <window_info id="Image Layers" order="1" />
@@ -488,22 +432,22 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49878934" visible="true" weight="0.26876676" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49878934" visible="true" weight="0.3243968" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.31969696" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739883" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.31213874" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30780348" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.3238255" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32658958" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4969743" visible="true" weight="0.35115606" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030257" side_tool="true" weight="0.3557047" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4969743" weight="0.3236994" />
-      <window_info anchor="bottom" id="Database Console" order="12" visible="true" weight="0.32998326" />
-      <window_info anchor="bottom" id="JProfiler" order="13" />
-      <window_info anchor="bottom" id="SonarLint" order="14" weight="0.32803467" />
+      <window_info anchor="bottom" id="SonarLint" order="9" weight="0.32784432" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" weight="0.36818182" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.3557047" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.3236994" />
+      <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32998326" />
+      <window_info anchor="bottom" id="JProfiler" order="14" />
       <window_info anchor="bottom" id="Sequence" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.4977307" weight="0.31358382" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -614,44 +558,19 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/GroupChatClinet.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/adun/day03_printThree/ReadWriteLockDemo01.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adun/day04_threadPool/ThreadPoolSaleTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../cglib-3.3.0.jar!/net/sf/cglib/proxy/Enhancer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="952" selection-start-line="952" selection-end-line="952" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_gc/GCCollectorDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/adun/test_threadPool/MyThreadPoolDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/adun/test_deadlock/DeadLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adun/test_oom/JavaHeapSpaceErrorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adun/test_oom/UnableCreateNewThreadDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/com/adun/test_oom/StackOverflowErrorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -757,42 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/myJUC/com/adun/test_threadPool/MyThreadPoolDemo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/myJUC/com/adun/test_jvm/HelloGC.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/myJUC/com/adun/test_jvm/PhantomReferenceDemo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#973#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/myJUC/com/adun/test_jvm/test_nio/BufferDemo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/myJUC/com/adun/test_threadPool/MyThreadPoolDemo.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/myJUC/com/adun/test_jvm/HelloGC.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/myJUC/com/adun/test_jvm/PhantomReferenceDemo.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/myJUC/com/adun/test_jvm/test_nio/BufferDemo.class" />
     <entry file="file://$PROJECT_DIR$/src/com/adun/aba/Hello.java" />
     <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/nio/Buffer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -822,6 +709,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/HelloGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/PhantomReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/ReferenceQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/SoftReferenceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -829,72 +740,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/ReferenceQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/PhantomReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/HelloGC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/GCRootDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
+        <state relative-caret-position="308">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/SocketChannelDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/adun/test_deadlock/DeadLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="814">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/ByteBufferDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/SocketChannelDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/FileChannelDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="154">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/SelectorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3740">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devtools/Java/jdk1.8.0_241/src.zip!/java/nio/channels/SelectionKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4752">
+          <caret line="240" column="46" selection-start-line="240" selection-start-column="46" selection-end-line="240" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/NIODemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="154">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/GroupChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/ByteBufferDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/FileChannelDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/test_nio/GroupChatClinet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

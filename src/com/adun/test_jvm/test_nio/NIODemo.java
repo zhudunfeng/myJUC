@@ -5,6 +5,9 @@ import java.nio.ByteBuffer;
 /**
  * @author zhudunfeng
  * @date 2020/11/10 23:24
+ *  https://mp.weixin.qq.com/s/GfV9w2B0mbT7PmeBS45xLw?spm=a2c6h.12873639.0.0.6dd14a61HjGXZt
+ *
+ *
  * <p>
  * NIO的核心	    对应的类或接口	    应用	            作用
  * 缓冲区	    Buffer	            文件IO/网络IO	存储数据
