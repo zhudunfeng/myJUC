@@ -1,4 +1,4 @@
-package com.adun.volatiletest;
+package com.adun.test_volatile;
 
 import org.junit.Test;
 
