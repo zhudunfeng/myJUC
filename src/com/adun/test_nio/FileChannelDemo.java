@@ -1,4 +1,4 @@
-package com.adun.test_jvm.test_nio;
+package com.adun.test_nio;
 
 import java.io.File;
 import java.io.FileInputStream;

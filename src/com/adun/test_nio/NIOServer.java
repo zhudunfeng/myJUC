@@ -1,4 +1,4 @@
-package com.adun.test_jvm.test_nio;
+package com.adun.test_nio;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

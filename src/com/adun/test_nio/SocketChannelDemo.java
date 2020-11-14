@@ -1,4 +1,4 @@
-package com.adun.test_jvm.test_nio;
+package com.adun.test_nio;
 
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;

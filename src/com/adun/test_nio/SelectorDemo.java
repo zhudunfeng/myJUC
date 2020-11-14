@@ -1,4 +1,4 @@
-package com.adun.test_jvm.test_nio;
+package com.adun.test_nio;
 
 import org.junit.Test;
 
@@ -7,8 +7,6 @@ import java.nio.Buffer;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.util.Arrays;
-import java.util.Optional;
-import java.util.stream.Stream;
 
 /**
  * @author zhudunfeng
