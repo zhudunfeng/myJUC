@@ -1,4 +1,4 @@
-package com.adun.day03_printThree;
+package com.adun.day03_printThree.thread_message;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

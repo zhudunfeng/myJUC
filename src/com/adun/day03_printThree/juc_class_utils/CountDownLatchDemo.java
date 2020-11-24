@@ -1,4 +1,4 @@
-package com.adun.day03_printThree;
+package com.adun.day03_printThree.juc_class_utils;
 
 import java.util.concurrent.CountDownLatch;
 

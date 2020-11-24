@@ -2,9 +2,7 @@ package com.adun.test_demo.server;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
-import io.netty.channel.ChannelHandler;
-import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.channel.*;
 import io.netty.util.CharsetUtil;
 
 import java.util.concurrent.TimeUnit;
@@ -56,7 +54,6 @@ public class MyServerHandler extends ChannelInboundHandlerAdapter {
 //                }
 //            }
 //        },5, TimeUnit.SECONDS);//5秒后执行
-
 
     }
 

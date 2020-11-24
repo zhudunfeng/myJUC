@@ -1,4 +1,4 @@
-package com.adun.day03_printThree;
+package com.adun.day03_printThree.thread_message;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -15,7 +15,9 @@ class ShareData01 {
     private Condition c3 = lock.newCondition();
 
     public void print() throws InterruptedException {
+
         String threadName=Thread.currentThread().getName();
+
         if("A".equals(threadName)){
             threadStat=1;
         }else if("B".equals(threadName)){
@@ -23,10 +25,12 @@ class ShareData01 {
         }else if("C".equals(threadName)){
             threadStat=3;
         }
+
+
         lock.lock();
         try {
             //判断
-            while(flag!=threadStat){//2 3
+            while(flag!=threadStat){
                 if(threadStat==1){
                     c1.await();
                 }
@@ -39,7 +43,7 @@ class ShareData01 {
             }
 
             //干活
-            for (int i = 1; i <=5*flag ; i++) {
+            for (int i = 1; i <=5*threadStat ; i++) {
                 System.out.println(Thread.currentThread().getName()+"/"+i);
             }
             //通知

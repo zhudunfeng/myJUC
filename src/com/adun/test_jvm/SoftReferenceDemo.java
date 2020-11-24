@@ -6,6 +6,7 @@ import java.lang.ref.SoftReference;
  * @author zhudunfeng
  * @date 2020/9/8 22:28
  *
+ *  软引用案例
  * 软引用的特点：内存充足，不会进行回收；内存不足，会直接进行回收
  *
  *  案例：两种情况，内存充足，内存不足

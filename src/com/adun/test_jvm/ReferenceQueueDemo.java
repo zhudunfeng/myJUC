@@ -8,6 +8,7 @@ import java.lang.ref.WeakReference;
  * @date 2020/9/7 21:43
  * 测试引用队列
  *
+ *
  * 获得引用队列特点，当前引用被gc回收前会自动放入引用队列
  */
 public class ReferenceQueueDemo {

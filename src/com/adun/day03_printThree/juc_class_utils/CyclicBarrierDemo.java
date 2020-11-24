@@ -1,4 +1,4 @@
-package com.adun.day03_printThree;
+package com.adun.day03_printThree.juc_class_utils;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
@@ -15,6 +15,7 @@ import java.util.concurrent.CyclicBarrier;
  */
 public class CyclicBarrierDemo {
     public static void main(String[] args) {
+        //当所有线程到达才放行
         CyclicBarrier cyclicBarrier = new CyclicBarrier(7, () -> {
             System.out.println("*****集齐7颗龙珠，召唤神龙");
         });
