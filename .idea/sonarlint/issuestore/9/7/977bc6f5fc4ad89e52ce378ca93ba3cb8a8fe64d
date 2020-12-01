@@ -1,17 +1,17 @@
 
-T	java:S1066"9Replace this use of System.out or System.err by a logger.(…ë‘8çéñÆ.
-T	java:S106D"9Replace this use of System.out or System.err by a logger.(…ë‘8çéñÆ.
-T	java:S106"9Replace this use of System.out or System.err by a logger.(…ë‘8ì¸ˆñÆ.
+q
+java:S1215$"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8¬ğŠñÆ.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ïõõ	8øŠ‡ñÆ.
+T	java:S1067"9Replace this use of System.out or System.err by a logger.(…ë‘8çéñÆ.
+q
+java:S1215<"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8çéñÆ.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(…ë‘8ì¸ˆñÆ.
+T	java:S106("9Replace this use of System.out or System.err by a logger.(…ë‘8¬ğŠñÆ.
+T	java:S106'"9Replace this use of System.out or System.err by a logger.(ïõõ	8¬ğŠñÆ.
+]	java:S125"<This block of commented-out lines of code should be removed.(ı¯‚¸ıÿÿÿÿ8Ö­ñÆ.
+T	java:S1066"9Replace this use of System.out or System.err by a logger.(ïõõ	8çéñÆ.
 G
-java:S1481>"*Remove this unused "bytes" local variable.(Œ¹à8æá¢ñÆ.
-T	java:S106"9Replace this use of System.out or System.err by a logger.(ïõõ	8øŠ‡ñÆ.
-T	java:S106C"9Replace this use of System.out or System.err by a logger.(ïõõ	8çéñÆ.
-X	java:S125"<This block of commented-out lines of code should be removed.(—ğ‚™8üñÆ.
-T	java:S1065"9Replace this use of System.out or System.err by a logger.(ïõõ	8çéñÆ.
-q
-java:S1215;"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8çéñÆ.
-]	java:S125"<This block of commented-out lines of code should be removed.(ı¯‚¸ıÿÿÿÿ8Ö­ñÆ.
-q
-java:S1215#"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8¬ğŠñÆ.
-T	java:S106&"9Replace this use of System.out or System.err by a logger.(ïõõ	8¬ğŠñÆ.
-T	java:S106'"9Replace this use of System.out or System.err by a logger.(…ë‘8¬ğŠñÆ.
+java:S1481?"*Remove this unused "bytes" local variable.(Œ¹à8æá¢ñÆ.
+T	java:S106D"9Replace this use of System.out or System.err by a logger.(ïõõ	8çéñÆ.
+X	java:S125"<This block of commented-out lines of code should be removed.(—ğ‚™8üñÆ.
+T	java:S106E"9Replace this use of System.out or System.err by a logger.(…ë‘8çéñÆ.

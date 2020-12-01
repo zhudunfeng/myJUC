@@ -19,7 +19,7 @@ public class MyThreadPoolDemo {
                 TimeUnit.SECONDS,
                 new LinkedBlockingQueue<Runnable>(3),
                 Executors.defaultThreadFactory(),
-                new ThreadPoolExecutor.DiscardPolicy());
+                new ThreadPoolExecutor.DiscardOldestPolicy());
 
 
         // 一个银行已经new好了5个受理窗口，有5个工作人员。

@@ -122,3 +122,7 @@ f
 6src/com/adun/test_blockingqueue/BlockingQueueDemo.java,7\f\7f3ba8fa589afc508ec70b65ae1b3fadce75ee19
 b
 2src/com/adun/test_ThreadPool/MyThreadPoolDemo.java,3\f\3faed00747a596ffa00a88d7ec278d0afb447ffd
+]
+-src/com/adun/test_jvm/StongReferenceDemo.java,6\3\638dd75f317d89e99c11437c367a3785f39c5897
+Z
+*src/com/adun/test_thread/CallableDemo.java,1\5\15540705674fa3db59286fef7606c5a25002eb2a

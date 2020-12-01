@@ -1,10 +1,13 @@
-# myJUC【java.utils.currment包下的类】
-SSMPlus_practice<br/>
+# 【java.util.concurrent包下的类的使用】
+
 Java高并发，多线程测试案例<br />
 包括出现问题的代码与相应的解决方案<br />
-```Jva
-import java.utils.currment
-锁
-通知
-写时复制
+```
+注意：相应的测试类中有相应的注释进行详细解释，注意理解
+java.utils.currment
+1、线程通信【线程锁的阻塞与释放、线程间的精准通知】
+2、volatile【保证可见性、不保证原子性、禁止指令重排】
+   2.1 引出CAS
+   2.2 CAS引出ABA问题【狸猫换太子】
+3、集合的并发写出现线程不安全问题【写时复制技术】
 ```

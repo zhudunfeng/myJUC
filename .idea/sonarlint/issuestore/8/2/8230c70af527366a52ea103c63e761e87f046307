@@ -1,14 +1,14 @@
 
-T	java:S106"9Replace this use of System.out or System.err by a logger.(ïõõ	8³ÅÆÆ.
-{
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Éñßêûÿÿÿÿ8Öî¿ÆÆ.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Â’äáøÿÿÿÿ8©ÍÆÆÆ.
-T	java:S106#"9Replace this use of System.out or System.err by a logger.(ïõõ	8ÌÓÆÆ.
-q
-java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8”ûËÆÆ.
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(Â’äáøÿÿÿÿ8ÌÓÆÆ.
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(ü£8ÌÓÆÆ.
+T	java:S106$"9Replace this use of System.out or System.err by a logger.(ïõõ	8ÌÓÆÆ.
 c
-java:S2142!"FEither re-interrupt this method or rethrow the "InterruptedException".(‰£ğ¡8¸íĞÆÆ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(±„òá8¡ÕÆÆ.
-U	java:S106$"9Replace this use of System.out or System.err by a logger.(ü£8ÌÓÆÆ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ü£8œ•ÆÆÆ.
+java:S2142""FEither re-interrupt this method or rethrow the "InterruptedException".(‰£ğ¡8¸íĞÆÆ.
+q
+java:S1215 "TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8”ûËÆÆ.
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Éñßêûÿÿÿÿ8Öî¿ÆÆ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Â’äáøÿÿÿÿ8©ÍÆÆÆ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(±„òá8¡ÕÆÆ.
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(Â’äáøÿÿÿÿ8ÌÓÆÆ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ü£8œ•ÆÆÆ.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ïõõ	8³ÅÆÆ.

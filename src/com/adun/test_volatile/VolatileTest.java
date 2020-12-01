@@ -5,6 +5,8 @@ import org.junit.Test;
 /**
  * @Auther ADun
  * @Date 2020/7/18 22:21
+ *
+ * 不是使用volatile，下面可能出现指令重排的现象【可能运行多次都不会出现】
  */
 public class VolatileTest {
     @Test
