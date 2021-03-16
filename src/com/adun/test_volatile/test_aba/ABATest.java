@@ -15,7 +15,6 @@ public class ABATest {
     private static AtomicStampedReference<Integer> atomicStampedReference=new AtomicStampedReference<>(100, 1);
 
     public static void main(String[] args) {
-
         /**
          * ABA问题的产生
          */

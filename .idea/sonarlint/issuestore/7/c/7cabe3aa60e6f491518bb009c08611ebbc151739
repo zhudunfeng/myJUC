@@ -1,7 +1,7 @@
 
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ƒƒƒúÿÿÿÿ8Òî¯öÊ.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(·—Ó 8Òî¯öÊ.
 “
 java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78Òî¯öÊ.
-U	java:S106""9Replace this use of System.out or System.err by a logger.(·—Ó 8Òî¯öÊ.
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÒúÒıÿÿÿÿ8Òî¯öÊ.
-Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ƒƒƒúÿÿÿÿ8Òî¯öÊ.
 X	java:S125%"<This block of commented-out lines of code should be removed.(É´îš8Òî¯öÊ.

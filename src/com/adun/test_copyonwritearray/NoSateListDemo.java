@@ -1,8 +1,9 @@
-package com.adun.day02_lam;
+package com.adun.test_copyonwritearray;
 
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.stream.Collectors;
 
 /**
  * 1、故障现象
@@ -24,7 +25,8 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class NoSateListDemo {
     public static void main(String[] args) {
         List<Object> list =new CopyOnWriteArrayList<>(); //new ArrayList<>();//Collections.synchronizedList(new ArrayList<>());//new ArrayList<>();
-
+//        Map<String, Object> stringObjectConcurrentHashMap = new ConcurrentHashMap<>();
+//        Set<Object> objects = Collections.synchronizedSet();
         for (int i = 1; i <=30 ; i++) {
             new Thread(()->{
                 list.add(UUID.randomUUID().toString().substring(0,6));

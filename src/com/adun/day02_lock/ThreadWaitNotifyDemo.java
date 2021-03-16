@@ -1,4 +1,4 @@
-package com.adun.day02_lam;
+package com.adun.day02_lock;
 
 class Cake{
     private Integer cake=0;
