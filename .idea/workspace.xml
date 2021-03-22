@@ -5,40 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a19280-e0ea-423a-9fc6-6b24e0bd177f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/adun/day02_lock/ReEnterLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/day02_lock/ReEnterLockMethondDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/day02_lock/ReEnterReentrantLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/AwaitSignalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/LockSuppurtDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/LockSuppurtOneDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/WaitNotifyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_AQS/test_ReEnterLock/ReEnterLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_AQS/test_ReEnterLock/ReEnterLockMethondDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_AQS/test_ReEnterLock/ReEnterReentrantLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_String58/StringPool58Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_oom/MetaspaceMemoryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/adun/test_oom/NativeThreadMemoryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f4245649f5e625514948615f1ab0058aa90a491" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1be3c4f0844e67e9541e291b6e63545497450945" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1be3c4f0844e67e9541e291b6e63545497450945" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e220326c509bc20b2a4a5c05afa0bf55d5fc2d9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e220326c509bc20b2a4a5c05afa0bf55d5fc2d9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/5529be53b18ae69bd910d1ec9a49005eb1ae3d9d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/5529be53b18ae69bd910d1ec9a49005eb1ae3d9d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b75d642333c9249705009bf6467a58acc158c5b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b75d642333c9249705009bf6467a58acc158c5b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7cabe3aa60e6f491518bb009c08611ebbc151739" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7cabe3aa60e6f491518bb009c08611ebbc151739" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/8230c70af527366a52ea103c63e761e87f046307" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/8230c70af527366a52ea103c63e761e87f046307" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d16337da364649fce35138ca01e74248515cc1a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d16337da364649fce35138ca01e74248515cc1a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/977bc6f5fc4ad89e52ce378ca93ba3cb8a8fe64d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/977bc6f5fc4ad89e52ce378ca93ba3cb8a8fe64d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db9dd053fba642955d5176deaf1abc06bdddeb86" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db9dd053fba642955d5176deaf1abc06bdddeb86" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb84a08d147a442f68501077a63f28f17bd6cad7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb84a08d147a442f68501077a63f28f17bd6cad7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/adun/day02_lam/Lock8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/adun/day02_lock/Lock8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/adun/day02_lam/NoSateListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/adun/test_copyonwritearray/NoSateListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/adun/day02_lam/ThreadAWaitSignalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/adun/day02_lock/ThreadAWaitSignalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/adun/day02_lam/ThreadWaitNotifyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/adun/day02_lock/ThreadWaitNotifyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/adun/test_blockingqueue/BlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/adun/test_blockingqueue/BlockingQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/adun/test_jvm/StongReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/adun/test_jvm/StrongReferenceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/adun/test_oom/GCOverHeadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/adun/test_oom/GCOverHeadMemoryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/adun/test_volatile/test_aba/ABATest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/adun/test_volatile/test_aba/ABATest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/NettyDemo/target/" />
@@ -73,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/WaitNotifyDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="22" column="47" lean-forward="true" selection-start-line="10" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="484">
+              <caret line="22" column="47" selection-start-line="10" selection-end-line="22" selection-end-column="47" />
               <folding>
                 <element signature="e#831#832#0" expanded="true" />
                 <element signature="e#890#891#0" expanded="true" />
@@ -86,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/LockSuppurtOneDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="330">
               <caret line="16" column="36" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/AwaitSignalDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-395">
+            <state relative-caret-position="220">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -107,11 +74,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/LockSuppurtDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="462">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -129,6 +105,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>initializeSystemClass</find>
+      <find>wait</find>
     </findStrings>
     <replaceStrings>
       <replace>await</replace>
@@ -210,8 +187,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="641" />
-    <option name="y" value="241" />
+    <option name="x" value="640" />
+    <option name="y" value="240" />
     <option name="width" value="1920" />
     <option name="height" value="670" />
   </component>
@@ -277,6 +254,11 @@
             <path>
               <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
               <item name="myJUC" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -331,10 +313,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/adun/test_AQS/test_ReEnterLock" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -353,6 +336,11 @@
       <expand />
       <select />
     </treeState>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="git status ." />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -541,7 +529,9 @@
       <workItem from="1615776274800" duration="19000" />
       <workItem from="1615794159086" duration="3976000" />
       <workItem from="1615878494852" duration="6712000" />
-      <workItem from="1615905605563" duration="670000" />
+      <workItem from="1615905605563" duration="2105000" />
+      <workItem from="1615908863782" duration="538000" />
+      <workItem from="1615945539922" duration="42000" />
     </task>
     <servers />
   </component>
@@ -578,11 +568,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127167000" />
+    <option name="totallyTimeSpent" value="129182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -590,10 +579,10 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Structure" order="4" sideWeight="0.5037594" side_tool="true" weight="0.31300268" />
       <window_info id="Favorites" order="5" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49624062" visible="true" weight="0.27882037" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49624062" visible="true" weight="0.28686327" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" visible="true" weight="0.30057803" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.65606934" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50722545" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -601,7 +590,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32658958" />
       <window_info anchor="bottom" id="SonarLint" order="9" weight="0.32658958" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" weight="0.3034682" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" visible="true" weight="0.63150287" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50402147" side_tool="true" weight="0.42341042" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.3236994" />
       <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32998326" />
@@ -721,13 +710,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/adun/day03_printThree/CallableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adun/test_jvm/GCRootDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1057,8 +1039,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/WaitNotifyDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="22" column="47" lean-forward="true" selection-start-line="10" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="484">
+          <caret line="22" column="47" selection-start-line="10" selection-end-line="22" selection-end-column="47" />
           <folding>
             <element signature="e#831#832#0" expanded="true" />
             <element signature="e#890#891#0" expanded="true" />
@@ -1068,8 +1050,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/LockSuppurtOneDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="330">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/AwaitSignalDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1078,18 +1070,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/LockSuppurtDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="462">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/AwaitSignalDemo.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-395">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
