@@ -78,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -127,7 +127,6 @@
         <option value="$PROJECT_DIR$/NettyDemo/src/main/java/com/adun/test_demo/MyClientHandler.java" />
         <option value="$PROJECT_DIR$/NettyDemo/src/main/java/com/adun/test_demo/client/MyClient.java" />
         <option value="$PROJECT_DIR$/src/com/adun/test_nio/ReactorDemo.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/NettyDemo/src/main/java/com/adun/test_demo/server/MyServer.java" />
         <option value="$PROJECT_DIR$/NettyDemo/src/main/java/com/adun/test_demo/server/MyServerHandler.java" />
         <option value="$PROJECT_DIR$/NettyDemo/pom.xml" />
@@ -168,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/LockSuppurtDemo.java" />
         <option value="$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/WaitNotifyDemo.java" />
         <option value="$PROJECT_DIR$/src/com/adun/test_AQS/test_LockSuppurt/AwaitSignalDemo.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -209,96 +209,6 @@
             <path>
               <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
               <item name="myJUC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adun" type="462c0819:PsiDirectoryNode" />
-              <item name="day02_lock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adun" type="462c0819:PsiDirectoryNode" />
-              <item name="day02_lock" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadWaitNotifyDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adun" type="462c0819:PsiDirectoryNode" />
-              <item name="test_AQS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adun" type="462c0819:PsiDirectoryNode" />
-              <item name="test_AQS" type="462c0819:PsiDirectoryNode" />
-              <item name="test_LockSuppurt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myJUC" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -532,6 +442,7 @@
       <workItem from="1615905605563" duration="2105000" />
       <workItem from="1615908863782" duration="538000" />
       <workItem from="1615945539922" duration="42000" />
+      <workItem from="1616421227626" duration="1165000" />
     </task>
     <servers />
   </component>
@@ -568,7 +479,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129182000" />
+    <option name="totallyTimeSpent" value="130347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -579,7 +490,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Structure" order="4" sideWeight="0.5037594" side_tool="true" weight="0.31300268" />
       <window_info id="Favorites" order="5" sideWeight="0.50121063" side_tool="true" weight="0.09152799" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49624062" visible="true" weight="0.28686327" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49624062" visible="true" weight="0.29088473" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.65606934" />
@@ -590,7 +501,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32658958" />
       <window_info anchor="bottom" id="SonarLint" order="9" weight="0.32658958" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" visible="true" weight="0.63150287" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" visible="true" weight="0.48410404" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50402147" side_tool="true" weight="0.42341042" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.3236994" />
       <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32998326" />
@@ -1078,7 +989,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
