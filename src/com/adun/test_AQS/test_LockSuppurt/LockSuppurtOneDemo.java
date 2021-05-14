@@ -12,6 +12,8 @@ import java.util.concurrent.locks.LockSupport;
  *
  * 因为凭证的数量最多为1，连续调用两次unpark和调用一次unpark效果一样，permit从0变1不会进行累加
  * 只会增加一个凭证； 而调用两次park却需要消费两个凭证，凭证不够，不能放行，第二次调用的park会进行阻塞
+ *
+ *
  */
 public class LockSuppurtOneDemo {
     public static void main(String[] args) {
