@@ -14,7 +14,7 @@ public class Student {
 
     private String name;
 
-    @NonNull()
+//    @NonNull()
     private String address;
 
 }

@@ -1,0 +1,30 @@
+#jsp相关测试配置
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+  web:
+    resources:
+      static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,/assets/
+
+#  server.servlet.encoding.force=true
+#  server.servlet.encoding.enabled=true
+#  server.servlet.encoding.charset=utf-8
+server:
+  servlet:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+#    context-path: /
+  address: 0.0.0.0
+  # server端的socket超时间(毫秒)，使用值-1表示没有(即无限)超时，默认值为60000(即60秒)
+  # Tomcat附带的标准server.xml将此值设置为20000(即20秒)，除非disableUploadTimeout设置为false，否则在读取请求正文(如果有)时也会使用此超时
+  tomcat:
+    connection-timeout: 80000
+

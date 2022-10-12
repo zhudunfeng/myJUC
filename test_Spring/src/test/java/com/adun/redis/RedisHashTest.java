@@ -3,12 +3,14 @@ package com.adun.redis;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.BoundHashOperations;
 import org.springframework.data.redis.core.StringRedisTemplate;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author zhudunfeng
@@ -24,6 +26,7 @@ public class RedisHashTest {
 
     @Autowired
     private StringRedisTemplate redisTemplate;
+
 
     @Test
     public void opsHashPut(){
@@ -64,6 +67,26 @@ public class RedisHashTest {
     public void  entries(){
         Map<Object, Object> entries = redisTemplate.opsForHash().entries(key);
         System.out.println(entries);
+    }
+
+
+    @Test
+    public void get(){
+        Object o = redisTemplate.opsForHash().get(key, "aa");
+        System.out.println(o instanceof Integer);
+        System.out.println(o instanceof String);
+    }
+
+    /**
+     * 一个key对应多个操作
+     */
+    @Test
+    public void testManyOps(){
+        BoundHashOperations<String, Object, Object> hashOps = redisTemplate.boundHashOps(key);
+        redisTemplate.expire(key, 5, TimeUnit.SECONDS);
+        System.out.println(hashOps.keys());
+        Object o = hashOps.get("aa");
+        System.out.println(o);
     }
 
 }

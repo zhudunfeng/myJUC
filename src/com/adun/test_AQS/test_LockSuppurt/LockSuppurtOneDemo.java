@@ -30,7 +30,7 @@ public class LockSuppurtOneDemo {
         //先通知，然后阻塞
         new Thread(()->{
             LockSupport.unpark(a);
-//            LockSupport.unpark(a);
+            LockSupport.unpark(a);
             System.out.println(Thread.currentThread().getName()+"通知了-----");
         },"B").start();
 

@@ -1,15 +1,16 @@
 package com.adun.test_abstract;
 
-import org.springframework.stereotype.Service;
-
 /**
  * @author zhudunfeng
  * @date 2021/6/10 13:56
  */
-public interface OneService {
-    public void print();
+public interface OneService extends AIn, BIn {
 
-    public default void printOne(){
-        System.out.println("哈哈哈哈");
+    public static final String a = "哈哈哈";
+
+    public abstract void print();
+
+    public default void printOne() {
+        System.out.println(a);
     }
 }

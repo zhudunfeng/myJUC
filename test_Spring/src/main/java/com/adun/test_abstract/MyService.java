@@ -9,8 +9,15 @@ import org.springframework.stereotype.Service;
 @Service
 public class MyService{
 
+    private static String s;
+
+    static {
+        s="Hello";
+    }
+
+
     public void print(){
-        System.out.println("Hello");
+        System.out.println(s);
     }
 
 }

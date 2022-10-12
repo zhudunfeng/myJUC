@@ -1,5 +1,6 @@
 package com.adun.test_volatile.test_aba;
 
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicStampedReference;
 
@@ -7,7 +8,7 @@ import java.util.concurrent.atomic.AtomicStampedReference;
  * @Auther ADun
  * @Date 2020/7/15
  * ABA[狸猫换太子]
- * 理解ABA问题的产生与解决方法
+ * 理解ABA问题的产生与解决方法  使用版本号，时间戳
  *
  */
 public class ABATest {

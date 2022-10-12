@@ -62,6 +62,7 @@ public class ThreadPoolAWaitSignalDemo {
     public static void main(String[] args) {
         Cake_up01 eatCake = new Cake_up01();
         //ExecutorService threadPool=Executors.newFixedThreadPool(5);
+        ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(5);
 
         ExecutorService executorService = new ThreadPoolExecutor(
                 //核心常驻线程

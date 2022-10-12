@@ -12,6 +12,10 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 /**
  * @author zhudunfeng
  * @date 2020/11/15 21:39
+ *
+ *
+ * https://developer.aliyun.com/article/769587?utm_content=g_1000165559
+ * https://mp.weixin.qq.com/s/vWbbn1qXRFVva8Y9yET18Q?spm=a2c6h.12873639.0.0.6dd14a61VAW6IL
  */
 public class MyClient {
     public static void main(String[] args) throws Exception {

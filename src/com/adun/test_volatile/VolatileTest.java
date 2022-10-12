@@ -2,6 +2,10 @@ package com.adun.test_volatile;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * @Auther ADun
  * @Date 2020/7/18 22:21
@@ -18,5 +22,16 @@ public class VolatileTest {
         System.out.println(x);
         System.out.println(y);
 
+    }
+
+    @Test
+    public void compare(){
+        boolean a=1.0F==1.0;
+        boolean b=1.1F==1.1;
+        System.out.println(a+","+b);
+        Object a1=1;
+        if(a1 instanceof Integer){
+            System.out.println(a1);
+        }
     }
 }

@@ -3,6 +3,8 @@ package com.adun.redis;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.BoundSetOperations;
+import org.springframework.data.redis.core.BoundValueOperations;
 import org.springframework.data.redis.core.StringRedisTemplate;
 
 import java.util.HashMap;
@@ -19,20 +21,16 @@ public class RedisSetTest {
 
     private static final String KEY_PREFIX_TEST="test:";
 
-    private final String key=KEY_PREFIX_TEST+"hash";
+    private final String key=KEY_PREFIX_TEST+"set";
 
 
     @Autowired
     private StringRedisTemplate redisTemplate;
 
     @Test
-    public void opsHashPut(){
-        HashMap<String, String> map = new HashMap<>();
-        map.put("aa", "11");
-        map.put("bb", "22");
-        map.put("cc", "33");
-        redisTemplate.opsForHash().putAll(key,map);
-
+    public void opsSetAdd(){
+        Long count = redisTemplate.opsForSet().add(key, "11", "22", "33");
+        System.out.println(count);
     }
 
     /**
@@ -40,17 +38,15 @@ public class RedisSetTest {
      * 获取key所对应的散列表的key
      */
     @Test
-    public void keys(){
-
-        Set<Object> keys = redisTemplate.opsForHash().keys(key);
-        System.out.println(keys);
-
+    public void members(){
+        Set<String> members = redisTemplate.opsForSet().members(key);
+        System.out.println(members);
     }
 
     @Test
     public void values(){
-        List<Object> values = redisTemplate.opsForHash().values(key);
-        System.out.println(values);
+        BoundSetOperations<String, String> operations = redisTemplate.boundSetOps(key);
+        System.out.println(operations.members());
     }
 
 

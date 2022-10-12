@@ -11,6 +11,7 @@ class Ticket_up1{
         lock.lock();
         try {
             if(ticket>0){
+                Thread.sleep(500);
                 System.out.println(Thread.currentThread().getName()+"卖出第"+(ticket--)+"张票,"+"还剩"+ticket+"张票");
             }
         }catch (Exception e){
