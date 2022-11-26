@@ -1,7 +1,6 @@
 package com.adun;
 
 /**
- *
  * 策略模式测试模型
  *
  * @author ADun

@@ -9,11 +9,12 @@ import com.adun.chain.Handler;
 public class ProjectHandler extends Handler {
     @Override
     public boolean doHandler(Programmer programmer) {
-        if(!"公众号".equals(programmer.getProject())){
+        if (!"公众号".equals(programmer.getProject())) {
             return false;
         }
+        System.out.println(programmer.getProject());
 
-        if(null == next){
+        if (null == next) {
             return true;
         }
         return next.doHandler(programmer);

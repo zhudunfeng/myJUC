@@ -24,18 +24,19 @@ public abstract class AuthLink {
     }
 
 
-    public AuthLink next(){
+    public AuthLink next() {
         return this.next;
     }
 
-    public AuthLink appendNext(AuthLink next){
-        this.next=next;
+    public AuthLink appendNext(AuthLink next) {
+        this.next = next;
         return this;
 //        return this.next;
     }
 
     /**
      * 这是每一个实现者必须实现的类，不同的审核级别处理不同的业务。
+     *
      * @param uId
      * @param orderId
      * @param authDate

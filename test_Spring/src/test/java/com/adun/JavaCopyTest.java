@@ -34,6 +34,11 @@ public class JavaCopyTest {
     @Autowired
     private ObjectMapper objectMapper;
 
+    /**
+     * 使用序列化实现对象的深拷贝
+     *
+     * @throws JsonProcessingException
+     */
     @Test
     public void testCopy02() throws JsonProcessingException {
         Address address = new Address();
@@ -54,6 +59,26 @@ public class JavaCopyTest {
         String s = objectMapper.writeValueAsString(bb);
         System.out.println(s);
         Student cc = objectMapper.readValue(s, Student.class);
-        System.out.println("cc="+cc);
+        System.out.println("cc=" + cc);
     }
+
+
+    /**
+     * 使用Cloneable接口实现对象的深拷贝
+     */
+    @Test
+    public void testCopy03() throws CloneNotSupportedException {
+        Student aa = new Student("1", "张三", 18,
+                new Address("北京", 200, null));
+        System.out.println("aa1" + aa);
+
+        Student bb = aa.clone();
+        bb.setId("2");
+        bb.setName("李四");
+        bb.getAddress().setAddress("上海");
+
+        System.out.println("aa2" + aa);
+        System.out.println("bb" + bb);
+    }
+
 }

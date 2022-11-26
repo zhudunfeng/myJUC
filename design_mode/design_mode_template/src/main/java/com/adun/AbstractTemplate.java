@@ -2,6 +2,7 @@ package com.adun;
 
 /**
  * 一个抽象模板
+ *
  * @author ADun
  * @date 2022/9/13 22:21
  */
@@ -16,7 +17,7 @@ public abstract class AbstractTemplate {
     }
 
     //规定模板方法的执行顺序
-    public void templateSequence(){
+    public void templateSequence() {
         this.templateMethodOne();
         this.templateMethodTwo();
         this.templateMethodThree();

@@ -12,11 +12,12 @@ public class NameHandler extends Handler {
     @Override
     public boolean doHandler(Programmer programmer) {
 
-        if(!"哪吒编程".equals(programmer.getName())){
+        if (!"哪吒编程".equals(programmer.getName())) {
             return false;
         }
+        System.out.println(programmer.getName());
 
-        if(null == next){
+        if (null == next) {
             return true;
         }
 

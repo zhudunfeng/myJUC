@@ -8,7 +8,7 @@ package com.adun;
  */
 public class ExecutionProcess {
 
-    public void executeMethod(Strategy strategy){
+    public void executeMethod(Strategy strategy) {
         //执行流程
         System.out.println("执行流程");
         //执行流程

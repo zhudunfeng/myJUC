@@ -15,10 +15,15 @@ import java.util.List;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-public final class Address {
+public final class Address implements Cloneable {
     private String address;
 
     private int num;
 
     private List standbyList;
+
+    @Override
+    protected Address clone() throws CloneNotSupportedException {
+        return (Address) super.clone();
+    }
 }

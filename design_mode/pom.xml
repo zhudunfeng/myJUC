@@ -27,6 +27,7 @@
         <module>design_mode_chain03</module>
         <module>design_mode_template</module>
         <module>design_mode_strategy</module>
+        <module>design_mode_singleton</module>
     </modules>
 
     <dependencyManagement>

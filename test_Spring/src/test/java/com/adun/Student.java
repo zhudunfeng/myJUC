@@ -13,7 +13,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Student {
+public class Student implements Cloneable {
     private String id;
     private String name;
     private Integer age;
@@ -26,4 +26,10 @@ public class Student {
         this.age = age;
     }
 
+    @Override
+    protected Student clone() throws CloneNotSupportedException {
+        Student student = (Student) super.clone();
+        student.address = (Address)address.clone();
+        return student;
+    }
 }

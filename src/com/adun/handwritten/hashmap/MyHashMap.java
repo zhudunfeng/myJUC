@@ -2,6 +2,7 @@ package com.adun.handwritten.hashmap;
 
 import java.util.HashMap;
 import java.util.Map.Entry;
+import java.util.Objects;
 
 /**
  * @author ADun
@@ -87,28 +88,28 @@ public class MyHashMap<K, V> implements MyMap<K,V> {
         if (null == entry) {
             return null;
         } else {
-            //头插法查询
-//            if (entry.getKey() == k && entry.hash == hash) {
-//                return entry.getValue();
-//            }
-//            Entry<K, V> next = entry.next;
-//            while (next != null) {
-//                if (next.getKey() == k && next.hash == hash) {
-//                    return next.getValue();
-//                }
-//                //向下遍历链表
-//                next = next.next;
-//            }
+            //头[尾]插法查询
+            if (entry.getKey() == k && entry.hash == hash) {
+                return entry.getValue();
+            }
+            Entry<K, V> next = entry.next;
+            while (next != null) {
+                if (next.getKey() == k && next.hash == hash) {
+                    return next.getValue();
+                }
+                //向下遍历链表
+                next = next.next;
+            }
 
             //尾插法查询
-            if (entry.getKey() == k && entry.hash == hash) {
-                //查询到链表尾部
-                Entry<K,V> tmp = entry;
-                while (tmp.next!=null){
-                    tmp=tmp.next;
-                }
-                return tmp.getValue();
-            }
+//            if (entry.getKey() == k && entry.hash == hash) {
+//                //查询到链表尾部
+//                Entry<K,V> tmp = entry;
+//                while (tmp.next!=null){
+//                    tmp=tmp.next;
+//                }
+//                return tmp.getValue();
+//            }
         }
         return null;
     }
@@ -133,7 +134,7 @@ public class MyHashMap<K, V> implements MyMap<K,V> {
             return null;
         } else {
             if (entry.getKey() == k && entry.hash == hash) {
-                // 如果是头节点，直接移除该元素
+                // 如果是头节点，直接移除该元素【指针走到当前头节点的下一节点】
                 entry = entry.next;
                 table[index] = entry;
                 return (V) table[index];

@@ -19,6 +19,7 @@ import java.util.Date;
 class DesignModeChain02ApplicationTests {
 
     public static final Logger logger = LoggerFactory.getLogger(DesignModeChain02ApplicationTests.class);
+
     @Test
     void contextLoads() {
     }
@@ -28,7 +29,6 @@ class DesignModeChain02ApplicationTests {
         AuthLink authLink = new Level3AuthLink("1000013", "王工")
                 .appendNext(new Level2AuthLink("1000012", "经理")
                         .appendNext(new Level1AuthLink("1000011", "段总")));
-
 
 
         //logger.info("测试结果：{}", JSON.toJSONString(authLink.doAuth("小傅哥", "1000998004813441", new Date())));
