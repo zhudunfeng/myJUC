@@ -76,7 +76,7 @@ public class MapTest {
     @Test
     public void testMap2(){
         ArrayList<User> list = new ArrayList<>();
-        Map<String, String> collect = list.stream().collect(Collectors.toMap(User::getId, User::getName));
+        Map<Integer, String> collect = list.stream().collect(Collectors.toMap(User::getId, User::getUserName));
         System.out.println(collect);
     }
 }

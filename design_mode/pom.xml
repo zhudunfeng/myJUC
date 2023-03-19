@@ -28,6 +28,10 @@
         <module>design_mode_template</module>
         <module>design_mode_strategy</module>
         <module>design_mode_singleton</module>
+        <module>design_mode_decorator</module>
+        <module>design_mode_adapter</module>
+        <module>design_mode_builder</module>
+        <module>design_mode_replace_if</module>
     </modules>
 
     <dependencyManagement>

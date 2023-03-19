@@ -1,6 +1,7 @@
 package com.adun;
 
 import com.adun.log.LogContainer;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
@@ -14,6 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 @EnableAspectJAutoProxy
 @SpringBootApplication
+@MapperScan("com.adun.mapper")
 //@PropertySource("banner.txt")
 //@PropertySource("")
 //@ConfigurationPropertiesScan("")

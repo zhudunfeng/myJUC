@@ -33,7 +33,8 @@ public class TransactionConfig {
     @Bean
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setUrl("jdbc:mysql://localhost:3306/activiti-lesson?useUnicode=true&characterEncoding=utf8&nullCatalogMeansCurrent=true&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai");
+        //dataSource.setUrl("jdbc:mysql://localhost:3306/activiti-lesson?useUnicode=true&characterEncoding=utf8&nullCatalogMeansCurrent=true&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/db2?useUnicode=true&characterEncoding=utf8&nullCatalogMeansCurrent=true&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai");
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUsername("root");
         dataSource.setPassword("root");

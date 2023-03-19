@@ -35,7 +35,7 @@ public class Test implements Runnable{
     public void run() {
         synchronizedByKey.exec("001", ()->{
             System.out.println("开始");
-//            service();
+            service();
             System.out.println("结束");
         });
     }

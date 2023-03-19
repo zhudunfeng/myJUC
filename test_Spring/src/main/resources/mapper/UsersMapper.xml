@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.adun.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.adun.entities.User">
+        <!--@Table users-->
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="userName" column="user_name" jdbcType="VARCHAR"/>
+        <result property="age" column="age" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="getUserByCustomWapper" resultMap="BaseResultMap">
+        select
+          id, user_name, age
+        from users
+        ${ew.customSqlSegment}
+    </select>
+
+
+
+</mapper>

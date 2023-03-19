@@ -8,10 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Base64;
-import java.util.List;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -24,18 +21,17 @@ import java.util.stream.Stream;
 @SpringBootTest
 public class StringTest {
 
-    public <T> T getObject(T value){
-        return (T)value;
+    public <T> T getObject(T value) {
+        return (T) value;
     }
 
-    public <T,R> R getObject1(T value,R r){
-        return (R)value;
+    public <T, R> R getObject1(T value, R r) {
+        return (R) value;
     }
-
 
 
     @Test
-    public void  testGet(){
+    public void testGet() {
         String a = "a";
         String b = getObject(a);
         System.out.println(b);
@@ -57,8 +53,8 @@ public class StringTest {
         System.out.println(a == b);
         System.out.println(java == java1);
 
-        Integer x1=5;
-        Long x2=Long.valueOf(x1);
+        Integer x1 = 5;
+        Long x2 = Long.valueOf(x1);
         System.out.println(x2);
 
     }
@@ -317,8 +313,55 @@ public class StringTest {
     }
 
     @Test
-    public void toByte64(){
+    public void toByte64() {
         byte[] encode = Base64.getEncoder().encode("哈哈哈哈哈".getBytes());
-        System.out.println(new String(encode,Charset.defaultCharset()));
+        System.out.println(new String(encode, Charset.defaultCharset()));
+    }
+
+
+    @Test
+    public void mostCharInString() {
+        String s = "aabbbbbbbcccdd";
+
+        HashMap<Character, Integer> charMap = new HashMap<>();
+        char[] chars = s.toCharArray();
+        for (char c : chars) {
+            Integer v = (!charMap.containsKey(c)) ? 1 : charMap.get(c) + 1;
+            charMap.put(c, v);
+        }
+
+        int maxNumer = 0;
+        char maxChar = ' ';
+        for (Map.Entry<Character, Integer> charIntEntry : charMap.entrySet()) {
+            if (charIntEntry.getValue() > maxNumer) {
+                maxNumer = charIntEntry.getValue();
+                maxChar = charIntEntry.getKey();
+            }
+        }
+        System.out.printf("最多字符是%c\n", maxChar);
+    }
+
+
+    private Map<Character, Integer> getCharMap(String s){
+        HashMap<Character, Integer> charMap = new HashMap<>();
+        char[] chars = s.toCharArray();
+        for (char c : chars) {
+            Integer v = (!charMap.containsKey(c)) ? 1 : charMap.get(c) + 1;
+            charMap.put(c, v);
+        }
+        return charMap;
+    }
+
+    private Character getMostCharInString(String s){
+        Map<Character, Integer> charMap = this.getCharMap(s);
+        int maxNumer = 0;
+        char maxChar = ' ';
+        for (Map.Entry<Character, Integer> charIntEntry : charMap.entrySet()) {
+            if (charIntEntry.getValue() > maxNumer) {
+                maxNumer = charIntEntry.getValue();
+                maxChar = charIntEntry.getKey();
+            }
+        }
+        return maxChar;
     }
 }

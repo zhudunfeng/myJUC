@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.adun.model.DataSource</OriginalElement>
+  <nodes>
+    <node x="405.25" y="128.0">com.adun.model.FileDataSource</node>
+    <node x="0.0" y="316.0">com.adun.model.EncryptionDecorator</node>
+    <node x="290.5" y="0.0">com.adun.model.DataSource</node>
+    <node x="266.0" y="304.0">com.adun.model.CompressionDecorator</node>
+    <node x="134.24999999999997" y="128.0">com.adun.model.DataSourceDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.adun.model.CompressionDecorator" target="com.adun.model.DataSourceDecorator">
+      <point x="0.0" y="-86.0" />
+      <point x="396.5" y="279.0" />
+      <point x="322.5" y="279.0" />
+      <point x="62.75" y="63.0" />
+    </edge>
+    <edge source="com.adun.model.FileDataSource" target="com.adun.model.DataSource">
+      <point x="0.0" y="-63.0" />
+      <point x="495.25" y="103.0" />
+      <point x="421.0" y="103.0" />
+      <point x="43.5" y="39.0" />
+    </edge>
+    <edge source="com.adun.model.DataSourceDecorator" target="com.adun.model.DataSource">
+      <point x="0.0" y="-63.0" />
+      <point x="259.75" y="103.0" />
+      <point x="334.0" y="103.0" />
+      <point x="-43.5" y="39.0" />
+    </edge>
+    <edge source="com.adun.model.EncryptionDecorator" target="com.adun.model.DataSourceDecorator">
+      <point x="0.0" y="-74.0" />
+      <point x="123.0" y="279.0" />
+      <point x="196.99999999999997" y="279.0" />
+      <point x="-62.75" y="63.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="490.0" y="320.0" />
+  <SelectedNodes>
+    <node>com.adun.model.FileDataSource</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

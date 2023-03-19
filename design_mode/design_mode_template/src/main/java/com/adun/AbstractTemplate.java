@@ -8,13 +8,13 @@ package com.adun;
  */
 public abstract class AbstractTemplate {
 
-//    protected AbstractTemplate() {
-//        this.templateSequence();
-//    }
-
-    {
+    protected AbstractTemplate() {
         this.templateSequence();
     }
+
+//    {
+//        this.templateSequence();
+//    }
 
     //规定模板方法的执行顺序
     public void templateSequence() {
