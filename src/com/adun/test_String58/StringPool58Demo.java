@@ -1,6 +1,6 @@
 package com.adun.test_String58;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.io.*;
 import java.util.ArrayList;
