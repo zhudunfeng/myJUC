@@ -3,10 +3,14 @@ package com.adun.handler;
 
 import com.adun.bean.Programmer;
 import com.adun.chain.Handler;
+import org.springframework.core.annotation.Order;
+import org.springframework.stereotype.Component;
 
 /**
  * 校验活动细节
  */
+@Order(3)
+@Component
 public class InfoHandler extends Handler {
 
     @Override

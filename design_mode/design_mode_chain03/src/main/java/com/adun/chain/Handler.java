@@ -21,15 +21,19 @@ public abstract class Handler<T> {
         private Handler<T> tail;
 
         public Builder<T> addHandler(Handler handler) {
-            //没有节点，将头指针和尾指针指向当前节点
+            //没有下一节点，将头指针和尾指针指向当前节点
             if (this.head == null) {
                 this.head = this.tail = handler;
                 return this;
             }
+            //有下一节点
             //尾指针链接新节点
             this.tail.next(handler);
             //尾指针走到链表的下一节点
             this.tail = handler;
+
+
+            //this 表示当前builder对象
             return this;
         }
 
