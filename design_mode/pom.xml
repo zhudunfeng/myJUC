@@ -32,6 +32,7 @@
         <module>design_mode_adapter</module>
         <module>design_mode_builder</module>
         <module>design_mode_replace_if</module>
+        <module>design_mode_observer</module>
     </modules>
 
     <dependencyManagement>
