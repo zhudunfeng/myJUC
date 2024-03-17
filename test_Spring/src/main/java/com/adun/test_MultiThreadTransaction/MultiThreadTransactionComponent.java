@@ -127,7 +127,7 @@ public class MultiThreadTransactionComponent {
             DefaultTransactionDefinition def = new DefaultTransactionDefinition();
             // 创建当前线任务的事务
             def.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
-            TransactionStatus transaction = this.platformTransactionManager.getTransaction(def);
+            TransactionStatus transactionStatus = this.platformTransactionManager.getTransaction(def);
             try {
                 // 尝试获取任务值
                 this.supplier.get();
@@ -144,11 +144,11 @@ public class MultiThreadTransactionComponent {
                 if (isError.get()) {
                     logger.info("【多线程事务-子线程】事务回滚");
                     //事务回滚
-                    platformTransactionManager.rollback(transaction);
+                    platformTransactionManager.rollback(transactionStatus);
                 } else {
                     logger.info("【多线程事务-子线程】事务提交");
                     //事务提交
-                    platformTransactionManager.commit(transaction);
+                    platformTransactionManager.commit(transactionStatus);
                 }
             } catch (InterruptedException e) {
                 e.printStackTrace();
