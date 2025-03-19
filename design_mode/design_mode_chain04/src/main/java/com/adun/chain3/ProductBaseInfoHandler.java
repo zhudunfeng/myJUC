@@ -1,5 +1,7 @@
 package com.adun.chain3;
 
+import com.adun.annotations.Duty;
+import com.adun.constants.ProductTypeConst;
 import com.adun.dto.ProductDto;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
@@ -10,7 +12,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 @Order(1)
-//     @Duty(type=ProductTypeConst.PRODUCT_GENERAL,order=10)
+@Duty(type= ProductTypeConst.PRODUCT_GENERAL,order=10)
 public class ProductBaseInfoHandler extends IHandler<ProductDto, Boolean> {
 
     @Override
