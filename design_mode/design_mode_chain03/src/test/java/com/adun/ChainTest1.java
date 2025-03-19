@@ -1,17 +1,12 @@
 package com.adun;
 
 import com.adun.bean.Programmer;
-import com.adun.chain.Handler;
-import com.adun.handler.InfoHandler;
-import com.adun.handler.NameHandler;
-import com.adun.handler.ProjectHandler;
+import com.adun.chain1.Handler;
 import com.adun.utils.SpringUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.ApplicationContext;
 import org.springframework.core.annotation.Order;
 
-import javax.annotation.Resource;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
